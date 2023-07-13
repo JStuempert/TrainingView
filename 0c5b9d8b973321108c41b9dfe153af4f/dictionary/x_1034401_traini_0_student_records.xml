@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e23f59cf973321108c41b9dfe153afad" label="Student Records" max_length="40" name="x_1034401_traini_0_student_records" type="collection">
+        <element label="Class ID" mandatory="true" max_length="50" name="class_id" type="string"/>
+        <element label="Class Title" mandatory="true" max_length="50" name="class_title" type="string"/>
+        <element label="Full Name" mandatory="true" max_length="50" name="full_name" type="string"/>
+        <element label="Instructor" mandatory="true" max_length="50" name="instructor" type="string"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="Completed"/>
+                <element inactive_on_update="false" label="Dropped" value="Dropped"/>
+                <element inactive_on_update="false" label="In Progress" value="In Progress"/>
+                <element inactive_on_update="false" label="Registered" value="Registered"/>
+            </choice>
+        </element>
+    </element>
+</database>
