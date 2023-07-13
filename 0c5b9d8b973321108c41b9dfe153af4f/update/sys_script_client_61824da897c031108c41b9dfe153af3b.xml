@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>last_requalification</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Qualified True/False Population on Form</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var currentDate = new Date();
+	var lastRequalDate = g_form.getValue('last_requalification');
+	var dateArray = lastRequalDate.split("-");
+	
+
+	if (currentDate.getFullYear() == parseInt(dateArray[0]))
+		{
+			g_form.setValue('qualified', true);
+		}
+	else if (currentDate.getFullYear() == parseInt(dateArray[0]) + 1 && currentDate.getMonth() <= parseInt(dateArray[1]-1))
+		{
+			if (currentDate.getDate() < dateArray[2])
+				{
+					g_form.setValue('qualified', true);
+				}
+			else 
+				{
+					g_form.setValue('qualified', false);
+				}
+		}
+	else
+		{
+			g_form.setValue('qualified', false);
+		}
+	
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-12 02:30:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>61824da897c031108c41b9dfe153af3b</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Qualified True/False Population on Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_client_61824da897c031108c41b9dfe153af3b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 03:14:07</sys_updated_on>
+        <table>x_1034401_traini_0_instructor_qualifications</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

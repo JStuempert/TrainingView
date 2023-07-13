@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8d96210b977321108c41b9dfe153afae" label="Class Records" max_length="40" name="x_1034401_traini_0_class_records" type="collection">
+        <element label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_classes" type="reference"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="x_1034401_traini_0_instructors" type="reference"/>
+        <element label="Number of Days" max_length="40" name="number_of_days" read_only="true" type="integer"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+    </element>
+</database>
