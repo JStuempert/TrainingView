@@ -20,18 +20,56 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Registered</label>
+            <language>en</language>
+            <name>x_1034401_traini_0_student_records</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 13:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 21:05:50</sys_updated_on>
+            <value>Registered</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_1034401_traini_0_student_records</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-07 13:09:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-05 21:05:50</sys_updated_on>
+            <value>In Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Completed</label>
             <language>en</language>
             <name>x_1034401_traini_0_student_records</name>
-            <sequence/>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-07 13:09:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:09:58</sys_updated_on>
+            <sys_updated_on>2023-10-05 21:05:50</sys_updated_on>
             <value>Completed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,54 +80,16 @@
             <label>Dropped</label>
             <language>en</language>
             <name>x_1034401_traini_0_student_records</name>
-            <sequence/>
+            <sequence>3</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-07 13:09:47</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:09:47</sys_updated_on>
+            <sys_updated_on>2023-10-05 21:05:50</sys_updated_on>
             <value>Dropped</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>In Progress</label>
-            <language>en</language>
-            <name>x_1034401_traini_0_student_records</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:09:35</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:09:35</sys_updated_on>
-            <value>In Progress</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Registered</label>
-            <language>en</language>
-            <name>x_1034401_traini_0_student_records</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:09:14</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:09:14</sys_updated_on>
-            <value>Registered</value>
         </sys_choice>
     </sys_choice>
 </record_update>

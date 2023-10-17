@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hours-based cancel</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	
+	if (g_form.getValue('number_of_days') < g_form.getValue('class_days_required'))
+		{
+			alert('The scheduled class duration must meet the minimum requirement');
+			g_form.showFieldMsg('number_of_days', 'This class must be scheduled for a minimum of ' + g_form.getValue('class_days_required' + ' days', 'error'));
+			return false;
+		}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:32:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0d7b2ab977531108c41b9dfe153af5d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hours-based cancel</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_client_a0d7b2ab977531108c41b9dfe153af5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:39:56</sys_updated_on>
+        <table>x_1034401_traini_0_class_records</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_client_a0d7b2ab977531108c41b9dfe153af5d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Hours-based cancel&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	
+	if (g_form.getValue('number_of_days') &lt; g_form.getValue('class_days_required'))
+		{
+			alert('The scheduled class duration must meet the minimum requirement');
+			g_form.showFieldMsg('number_of_days', 'This class must be scheduled for a minimum of ' + g_form.getValue('class_days_required' + ' days', 'error'));
+			return false;
+		}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-16 18:32:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a0d7b2ab977531108c41b9dfe153af5d&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hours-based cancel&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_a0d7b2ab977531108c41b9dfe153af5d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-16 18:39:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1034401_traini_0_class_records&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1458558055</payload_hash>
+        <record_name>Hours-based cancel</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:39:56</sys_created_on>
+        <sys_id>1b7abaeb977531108c41b9dfe153af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b39c99d0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:39:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>df7abaebfe753110ffe6b4e21cb96841</update_guid>
+        <update_guid_history>df7abaebfe753110ffe6b4e21cb96841:1458558055,a1697eeb08753110ca079a1e67672387:-1946142359,6539b2abd7753110546ca1de470404e1:282681601,d2d8f2abcd7531108d034c27fd045f44:-461072581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 18:40:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7f98a776ef8f43a4a1ce0b6d7bfb3b69</sys_id>
+        <sys_metadata>a0d7b2ab977531108c41b9dfe153af5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hours-based cancel</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Class Records">8d96210b977321108c41b9dfe153afae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_a0d7b2ab977531108c41b9dfe153af5d</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a0d7b2ab977531108c41b9dfe153af5d">1b7abaeb977531108c41b9dfe153af42</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 18:40:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

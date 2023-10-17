@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 12:59:18</sys_created_on>
+        <sys_id>30f36907977321108c41b9dfe153afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1034401_traini_0_instructors.x_1034401_traini_0.instructors_user</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_security_acl display_value="x_1034401_traini_0_instructors">b0f36907977321108c41b9dfe153afeb</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_30f36907977321108c41b9dfe153afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 12:59:18</sys_updated_on>
+        <sys_user_role display_value="x_1034401_traini_0.instructors_user" name="x_1034401_traini_0.instructors_user">e8f36107977321108c41b9dfe153af01</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_security_acl_role_30f36907977321108c41b9dfe153afee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-07 12:59:18</sys_created_on><sys_id>30f36907977321108c41b9dfe153afee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1034401_traini_0_instructors.x_1034401_traini_0.instructors_user</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_security_acl display_value="x_1034401_traini_0_instructors">b0f36907977321108c41b9dfe153afeb</sys_security_acl><sys_update_name>sys_security_acl_role_30f36907977321108c41b9dfe153afee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-07 12:59:18</sys_updated_on><sys_user_role display_value="x_1034401_traini_0.instructors_user" name="x_1034401_traini_0.instructors_user">e8f36107977321108c41b9dfe153af01</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>369122818</payload_hash>
+        <record_name>x_1034401_traini_0_instructors.x_1034401_traini_0.instructors_user</record_name>
+        <reverted_from/>
+        <source>045b9d8b973321108c41b9dfe153af52</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 12:59:18</sys_created_on>
+        <sys_id>7cf36907977321108c41b9dfe153affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189306f75bd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 12:59:18</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b0f36907697321104a24ea8bc35a58fc</update_guid>
+        <update_guid_history>b0f36907697321104a24ea8bc35a58fc:369122818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1034401_traini_0_instructors.x_1034401_traini_0.instructors_user">39801b3c972131108c41b9dfe153af13</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:57:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>4d692f661e704bf8a01666d6c68407a4</sys_id>
+        <sys_metadata>30f36907977321108c41b9dfe153afee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1034401_traini_0_instructors.x_1034401_traini_0.instructors_user</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="x_1034401_traini_0_instructors">b0f36907977321108c41b9dfe153afeb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_30f36907977321108c41b9dfe153afee</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_30f36907977321108c41b9dfe153afee">7cf36907977321108c41b9dfe153affc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:57:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

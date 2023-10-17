@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>69bd0f38972131108c41b9dfe153af4d</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app/>
+        <path>trainingview</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 20:45:00</sys_created_on>
+        <sys_id>65bd0f38972131108c41b9dfe153af4d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>TrainingView</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_page_registry_65bd0f38972131108c41b9dfe153af4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:49:28</sys_updated_on>
+        <title>TrainingView</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_page_registry_65bd0f38972131108c41b9dfe153af4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>69bd0f38972131108c41b9dfe153af4d</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app/><path>trainingview</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 20:45:00</sys_created_on><sys_id>65bd0f38972131108c41b9dfe153af4d</sys_id><sys_mod_count>3</sys_mod_count><sys_name>TrainingView</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_page_registry_65bd0f38972131108c41b9dfe153af4d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-25 20:49:28</sys_updated_on><title>TrainingView</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>1114596629</payload_hash>
+        <record_name>TrainingView</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:49:28</sys_created_on>
+        <sys_id>c8cec7b8972131108c41b9dfe153af3b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ace1aa8060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:49:28</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>80cec7b8812131109e58d92151edcc3b</update_guid>
+        <update_guid_history>80cec7b8812131109e58d92151edcc3b:1114596629,afaec3b8a821311036616ea3e89e952b:-751293092,5f6e43b8ee2131107e79c2d5c0de2040:-1281892579,db6e83788e213110224852419e8415f6:1114596629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:50:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>325193caece848d1aa5f0d0fdb4f53a9</sys_id>
+        <sys_metadata>65bd0f38972131108c41b9dfe153af4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainingView</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_65bd0f38972131108c41b9dfe153af4d</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_65bd0f38972131108c41b9dfe153af4d">c8cec7b8972131108c41b9dfe153af3b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:50:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

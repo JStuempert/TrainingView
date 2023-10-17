@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="8d96210b977321108c41b9dfe153afae" label="Class Records" max_length="40" name="x_1034401_traini_0_class_records" type="collection">
-        <element label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_classes" type="reference"/>
+    <element db_object_id="8d96210b977321108c41b9dfe153afae" label="Class Records" max_length="40" name="x_1034401_traini_0_class_records" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Minimum Duration (Days)" max_length="40" name="class_days_required" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="scheduled" label="Class Status" max_length="40" name="class_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Complete" sequence="2" value="complete"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_classes" type="reference"/>
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
-        <element label="Instructor" max_length="32" name="instructor" reference="x_1034401_traini_0_instructors" type="reference"/>
-        <element label="Number of Days" max_length="40" name="number_of_days" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Instructor" max_length="32" name="instructor" reference="x_1034401_traini_0_instructor_qualifications" reference_qual="javascript:&quot;class_title=&quot;+current.class_title+&quot;^qualified=&quot;+true;" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true" label="Scheduled Duration (Days)" max_length="40" name="number_of_days" read_only="true" type="integer"/>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
     </element>
 </database>

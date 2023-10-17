@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">c6f3bd9d6100311065411f70752ab04b</canvas>
+        <component display_value="now-heading">3a64f550256090d9578ede76158e899c</component>
+        <component_props>{"variant":"header-tertiary","label":"Happening now","wontWrap":false,"hasNoMargin":false,"level":"1"}</component_props>
+        <h>3</h>
+        <name/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:38</sys_created_on>
+        <sys_id>46f3bd9dc0003110438941b7a08d264a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>par_dashboard_widget_46f3bd9dc0003110438941b7a08d264a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:38</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

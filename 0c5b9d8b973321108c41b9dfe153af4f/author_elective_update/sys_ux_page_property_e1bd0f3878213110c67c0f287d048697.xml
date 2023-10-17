@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">65bd0f38972131108c41b9dfe153af4d</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">f5bd0f38882131104bbb88627f0387b7</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 20:44:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>e1bd0f3878213110c67c0f287d048697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_page_property_e1bd0f3878213110c67c0f287d048697</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:44:59</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1034401_traini_0.65bd0f38972131108c41b9dfe153af4d.route.chrome_header.f5bd0f38882131104bbb88627f0387b7</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_page_property_e1bd0f3878213110c67c0f287d048697</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">65bd0f38972131108c41b9dfe153af4d</page><required_translations>[]</required_translations><route display_value="Landing Page">f5bd0f38882131104bbb88627f0387b7</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-09-25 20:44:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>e1bd0f3878213110c67c0f287d048697</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_page_property_e1bd0f3878213110c67c0f287d048697</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-09-25 20:44:59</sys_updated_on><type>json</type><unique_name>x_1034401_traini_0.65bd0f38972131108c41b9dfe153af4d.route.chrome_header.f5bd0f38882131104bbb88627f0387b7</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>680012484</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>f139b423973321108c41b9dfe153af40</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by/>
+        <sys_created_on>2023-07-08 23:09:33</sys_created_on>
+        <sys_id>1b0f0fb8972131108c41b9dfe153af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18937c483c80000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 01:15:59</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>d70f0fb8762131109b5ded843f969375</update_guid>
+        <update_guid_history>d70f0fb8762131109b5ded843f969375:680012484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:50:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3f0343b1a03f400b9392d8167b623351</sys_id>
+        <sys_metadata>e1bd0f3878213110c67c0f287d048697</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_e1bd0f3878213110c67c0f287d048697</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_e1bd0f3878213110c67c0f287d048697">1b0f0fb8972131108c41b9dfe153af75</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:50:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

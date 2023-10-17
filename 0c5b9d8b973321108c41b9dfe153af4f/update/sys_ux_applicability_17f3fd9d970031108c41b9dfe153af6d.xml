@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1034401_traini_0.Audience for app trainingview</api_name>
+        <description/>
+        <name>Audience for app trainingview</name>
+        <roles>445b9d8b973321108c41b9dfe153af56,105d554f973321108c41b9dfe153afc8,cb966dc7977321108c41b9dfe153af40,e8f36107977321108c41b9dfe153af01,98f6690b977321108c41b9dfe153af0d,635c55cb973321108c41b9dfe153aff2,7f5f594f973321108c41b9dfe153afed,485b9d8b973321108c41b9dfe153af5a</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17f3fd9d970031108c41b9dfe153af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app trainingview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_applicability_17f3fd9d970031108c41b9dfe153af6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:42</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

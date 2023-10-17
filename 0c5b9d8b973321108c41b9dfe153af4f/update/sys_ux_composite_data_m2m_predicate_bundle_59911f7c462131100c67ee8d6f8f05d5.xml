@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">91911f7cac213110a9c7cc77c84b31d9</dataset>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">5d911f7c1e2131101dc14db3aa192dd4</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 21:01:54</sys_created_on>
+        <sys_id>59911f7c462131100c67ee8d6f8f05d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_59911f7c462131100c67ee8d6f8f05d5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:01:54</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

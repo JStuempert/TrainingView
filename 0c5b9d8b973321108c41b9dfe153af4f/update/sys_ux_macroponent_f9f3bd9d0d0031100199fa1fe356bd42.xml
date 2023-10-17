@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "calendar_report_1",
+  "elementLabel" : "Calendar Report 1",
+  "propertyValues" : {
+    "eventDisplayFields" : {
+      "type" : "JSON_LITERAL",
+      "value" : "class_title,instructor"
+    },
+    "componentDescription" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "showFilterOverview" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "startDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : "07/01/2023"
+    },
+    "filterConfigurations" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "parFilters" ]
+      }
+    },
+    "showDescription" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "encodedQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "endDateField" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "componentTitle" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "eventColor" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "viewType" : {
+      "type" : "JSON_LITERAL",
+      "value" : "MONTH"
+    },
+    "followFilters" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "table" : {
+      "type" : "JSON_LITERAL",
+      "value" : "x_1034401_traini_0_class_records"
+    },
+    "reportSource" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "259e0221ff18a75c5f5f0fb28fa5d32f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : null
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "cachePolicy" : null,
+  "definition" : {
+    "id" : "029f04e053610110ac9bddeeff7b1294",
+    "type" : "CONTROLLER"
+  },
+  "dependencies" : { },
+  "elementId" : "form_1",
+  "elementLabel" : "Form 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "inputTable" : {
+      "type" : "JSON_LITERAL",
+      "value" : "task"
+    },
+    "inputSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : "ae96d73de865211076da10591ad2871d"
+    },
+    "inputQuery" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "view" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "forcedViewName" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "detailsContext" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "activityLogs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "inputExtraParams" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "screen" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "fields" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "userPrefs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "selectedTabIndex" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events>bdf3bd9d3900311038c3e2ce819b1d42</dispatched_events>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"calendar_report_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
+    "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
+    "type" : "grid"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <output_prop_mapping/>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+}, {
+  "name" : "openInEditMode",
+  "label" : "openInEditMode",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : "",
+  "description" : null,
+  "readOnly" : true,
+  "selectable" : false,
+  "disabled" : false
+} ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:39</sys_created_on>
+        <sys_id>f9f3bd9d0d0031100199fa1fe356bd42</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_macroponent_f9f3bd9d0d0031100199fa1fe356bd42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-17 15:16:36</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=f9f3bd9d0d0031100199fa1fe356bd42"/>
+</record_update>

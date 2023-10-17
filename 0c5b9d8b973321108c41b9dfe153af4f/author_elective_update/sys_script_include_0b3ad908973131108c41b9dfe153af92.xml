@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1034401_traini_0.lookUpInstructor</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lookUpInstructor</name>
+        <script><![CDATA[var lookUpInstructor = Class.create();
+lookUpInstructor.prototype = {
+    initialize: function() {
+    },
+	
+	lookUpInstructor: function(){
+		
+		var ins = '';
+		var gr = new GlideRecord('x_1034401_traini_0_class_records');
+		var classTitle = this.getParameter('sysparm_classTitle');
+		gr.addQuery('class_title.title', classTitle);
+		if (gr.next()){
+			ins = gr.getValue('instructor');
+			this.getRootElement().setAttribute('groupinfo',ins);
+		}
+		
+		return ins;
+		
+	
+		
+	},
+
+    type: 'lookUpInstructor'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 14:51:31</sys_created_on>
+        <sys_id>0b3ad908973131108c41b9dfe153af92</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>lookUpInstructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_include_0b3ad908973131108c41b9dfe153af92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:06:41</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_include_0b3ad908973131108c41b9dfe153af92</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1034401_traini_0.lookUpInstructor&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;lookUpInstructor&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var lookUpInstructor = Class.create();
+lookUpInstructor.prototype = {
+    initialize: function() {
+    },
+	
+	lookUpInstructor: function(){
+		
+		var ins = '';
+		var gr = new GlideRecord('x_1034401_traini_0_class_records');
+		var classTitle = this.getParameter('sysparm_classTitle');
+		gr.addQuery('class_title.title', classTitle);
+		if (gr.next()){
+			ins = gr.getValue('instructor');
+			this.getRootElement().setAttribute('groupinfo',ins);
+		}
+		
+		return ins;
+		
+	
+		
+	},
+
+    type: 'lookUpInstructor'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-05 14:51:31&lt;/sys_created_on&gt;&lt;sys_id&gt;0b3ad908973131108c41b9dfe153af92&lt;/sys_id&gt;&lt;sys_mod_count&gt;47&lt;/sys_mod_count&gt;&lt;sys_name&gt;lookUpInstructor&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_0b3ad908973131108c41b9dfe153af92&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-05 20:06:41&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>683250610</payload_hash>
+        <record_name>lookUpInstructor</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:06:41</sys_created_on>
+        <sys_id>b6d42a44977531108c41b9dfe153af78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b017314b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:06:41</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7ed42a4406753110d25aed3904b00677</update_guid>
+        <update_guid_history>7ed42a4406753110d25aed3904b00677:683250610,e4e32a04487531104684a3ecfc974400:-75096410,33d36604d475311023cf6a49f0478633:1452235370,6da326c070753110427a9a7307df1eed:-75096410,49936204b3753110ea0d3c1d171aa80c:-1591952225,f182ae80ca753110d445e61aec7899e5:68992361,b6622e4043753110dc43581600fbd336:1615754303,cc516a40b97531106ee283ef63b7e594:-882736657,66f0664027753110a823bfec5b3c738a:460093145,d6e026404b753110d6f2796b0368fc66:1770259519,88c02240a3753110bee511f5a83f8b5e:-1643851488,c820260040753110829a71ad590970af:491090448,8f00a6cc7c353110078f9a96e42b132d:-856506100,e76ede4c12353110038be63f83e5007a:491090448,5f0e128c1e3531103dfcc784cc3e495d:598677637,7a8dd64c7d353110f1e7ffcd9714c7ad:1946756542,6f7d964c5f353110e50b71f0d7c4d250:-1581189474,776d924c51353110a1804b017b90cdc7:532390867,a85dd60cd63531101bb9ae67a9798fba:1946756542,4eec9a0c2a353110128702dff14658cc:270234277,2bbcd60c6c3531104c2f9f9d9823a3c9:-260380268,ea4b1e887535311002e2ceb1512bcfb5:688039128,593ad64895353110ea473b2e89c7e0a6:1911264099,4007d284c3353110b25e699c63db4a78:623510329,05c65a44bf3531109da16cce4d2fd03a:-846169627,91465244d135311061def577cfee27fc:339932294,a7d58a0498f13110ba9971bb3360826a:1765635175,99154a04e0f131107228d84fc5b1c757:861152533,a7d346c03ff131103aab9ceae865d153:-2065850311,37814a0020f131106b7d18cf03e0d51e:1417201439,2def35ccddb1311054759993214893c1:85767673,93df7d8c8bb1311026a2248b43eeecd1:1361151561,d27f314cb4b1311018c6346fe2340aba:-661572572,fd9e390c97b131103f195790ec74bf92:876141828,037cfd88cfb13110214d5081dd6fe265:1773408826,ef0c35c84eb131107d45aec74db7fdcf:535722634,9c57b50418b131104dcd3dbc55f96cff:-159384183,7707f504bdb13110f412a4ddc542840b:-1464754916,cb55b504cbb13110da99c02e9f21b6d8:-210122749,8845f104dfb131109e641fa214c8b010:-17729597,c96471c0d6b13110668715233404b590:-210122749,c6f37d8098b131102f71a7dd7afc286c:800541682,d531f14c32713110a05637818dd11237:1280069123,5c40f94c68713110b587a4c492dfc112:-658189976,0eac6d88387131106ccbefc7c87c4a6e:1903513321,9448e9846a713110e58f0e39c1967f54:1236206158,d608e98495713110da4863eeecf1c748:-1318288432,2abc51c87c313110856a5a38aee86fc8:-431455313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:07:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>30defe9a73bf49c38d62761ce87e18b1</sys_id>
+        <sys_metadata>0b3ad908973131108c41b9dfe153af92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lookUpInstructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_include_0b3ad908973131108c41b9dfe153af92</sys_update_name>
+        <sys_update_version display_value="sys_script_include_0b3ad908973131108c41b9dfe153af92">b6d42a44977531108c41b9dfe153af78</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:07:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

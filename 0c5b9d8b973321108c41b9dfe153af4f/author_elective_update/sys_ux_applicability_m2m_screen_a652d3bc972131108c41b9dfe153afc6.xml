@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="DELETE">
+        <active>true</active>
+        <applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability>
+        <order>0</order>
+        <screen display_value="Landing Page Default">19911f7cdc21311096ec373856cc52c4</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 21:05:12</sys_created_on>
+        <sys_id>a652d3bc972131108c41b9dfe153afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_a652d3bc972131108c41b9dfe153afc6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:05:12</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_applicability_m2m_screen_a652d3bc972131108c41b9dfe153afc6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen"><sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE"><active>true</active><applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability><order>0</order><screen display_value="Landing Page Default">19911f7cdc21311096ec373856cc52c4</screen><sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-09-25 21:05:12</sys_created_on><sys_id>a652d3bc972131108c41b9dfe153afc6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_applicability_m2m_screen_a652d3bc972131108c41b9dfe153afc6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-09-25 21:05:12</sys_updated_on></sys_ux_applicability_m2m_screen></record_update>]]></payload>
+        <payload_hash>-80955393</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 21:05:12</sys_created_on>
+        <sys_id>2e52d3bc972131108c41b9dfe153afc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ace29117e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:05:12</sys_updated_on>
+        <type>Screen Applicability</type>
+        <update_guid>6252d3bc622131109001d5e3bf71dfc8</update_guid>
+        <update_guid_history>6252d3bc622131109001d5e3bf71dfc8:-80955393</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 21:05:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_applicability_m2m_screen">sys_ux_applicability_m2m_screen</sys_db_object>
+        <sys_id>14dbbbcb2c2f48cc8664368d948c43d1</sys_id>
+        <sys_metadata>a652d3bc972131108c41b9dfe153afc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_applicability_m2m_screen_a652d3bc972131108c41b9dfe153afc6</sys_update_name>
+        <sys_update_version display_value="sys_ux_applicability_m2m_screen_a652d3bc972131108c41b9dfe153afc6">2e52d3bc972131108c41b9dfe153afc8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:05:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

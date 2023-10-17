@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>class_title</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Populate Instructor</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var ga = new GlideAjax('lookUpInstructor');
+	ga.addParam('sysparm_name', 'lookUpInstructor');
+	ga.addParam('sysparm_classTitle', newValue);
+	ga.getXML(InstructorLookup);
+		
+	function InstructorLookup(response){
+		var answer = response.responseXML.documentElement.getAttribute("groupinfo");
+		alert(answer);
+	}
+		
+	}
+	
+	
+	
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 14:55:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7accd1c8973131108c41b9dfe153afd5</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>Populate Instructor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_client_7accd1c8973131108c41b9dfe153afd5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:01:37</sys_updated_on>
+        <table>x_1034401_traini_0_student_records</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_client_7accd1c8973131108c41b9dfe153afd5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;class_title&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate Instructor&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var ga = new GlideAjax('lookUpInstructor');
+	ga.addParam('sysparm_name', 'lookUpInstructor');
+	ga.addParam('sysparm_classTitle', newValue);
+	ga.getXML(InstructorLookup);
+		
+	function InstructorLookup(response){
+		var answer = response.responseXML.documentElement.getAttribute("groupinfo");
+		alert(answer);
+	}
+		
+	}
+	
+	
+	
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-05 14:55:59&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;7accd1c8973131108c41b9dfe153afd5&lt;/sys_id&gt;&lt;sys_mod_count&gt;38&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate Instructor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_7accd1c8973131108c41b9dfe153afd5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-05 20:01:37&lt;/sys_updated_on&gt;&lt;table&gt;x_1034401_traini_0_student_records&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>434050920</payload_hash>
+        <record_name>Populate Instructor</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:01:37</sys_created_on>
+        <sys_id>e0b3e204977531108c41b9dfe153afde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b016e736d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:01:37</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a8b3e204f67531109afe68fe810763dd</update_guid>
+        <update_guid_history>a8b3e204f67531109afe68fe810763dd:434050920,4c726e80c0753110fe6fcbcf9c9e9cdd:232772077,62c02240ba7531104d401a52072f3f64:-1712340978,f55d924c393531108c5cf7e892c26455:184989127,968bde881635311038af6a92b0e3947d:-1063549494,252bda887a353110d6ac68a8e243af9b:-1265039007,88fa1e486b3531100f5af5054435c319:1481784580,ae7ada48f63531107fc63756900560e6:1821153710,b6471e8444353110612c8bde3be6ef4e:327088886,8a2796844135311041cae07c1038d4f1:1821153710,b89616446f35311026263ccc8137c3a2:1089896082,86e5ce04c9f13110cb83b997a10303ae:-1088333040,4f250a04fff131108e56834415447ba3:1860299608,b3e40ac04df131107cae40232b9b6b33:6986822,1b914a0021f131102f6e9f55fae59122:1096794921,3cd0060035f131104200c15d1b4badef:831828789,06b0060088f131107e651fff20588526:-328045115,4980caccffb131100f635eb900af2bb7:1131650202,1c500eccb9b1311032c9bffb34957ddb:-814152725,8e3046cc5db13110979ced11e2547508:-1339997687,f23d390caab13110ba6e20cc6531f146:1539055835,702df50cbdb131100b944083603ea0e8:1670199113,4a1db50c64b131108890936331131241:-1857449930,1f2cb5c87cb131102f188950e31ad4f3:-1614982139,b7867904c9b13110be948b80d74f0b6b:266764989,4b15710461b13110640ccd6c9ac0763d:-109940103,45b3b14074b1311027c641892d54993c:826803704,7963b58057b13110ec1a3a37cacfd8f3:2041552232,4f23fdcc77713110e4b72952064287f4:207046553,8c13714095b131104fdd9a6140004556:1814370329,161235cc6b71311095c7376430a12d41:240159858,069d650c9c7131108dc21443cb927ed1:-1474395755,797da9c8d6713110f59987f5d43e5f80:-1599268215,6c5de10caf713110186f35e9552c9946:-602464997,216a2d08d371311017ddfac97f64fe82:-1608491141,d2c96908247131109f10876924c7a166:-621273157,832969c47a713110d2dc0cfc9c7f1c20:50406401,59ed150ccd313110390999baa0d57e3a:1171813182,3fbd51c83231311062e5444f43f09169:-1458930354</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:07:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>076b809b387c4d078ea2568ab8ce7809</sys_id>
+        <sys_metadata>7accd1c8973131108c41b9dfe153afd5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate Instructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Student Records">e23f59cf973321108c41b9dfe153afad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_7accd1c8973131108c41b9dfe153afd5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_7accd1c8973131108c41b9dfe153afd5">e0b3e204977531108c41b9dfe153afde</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 20:07:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

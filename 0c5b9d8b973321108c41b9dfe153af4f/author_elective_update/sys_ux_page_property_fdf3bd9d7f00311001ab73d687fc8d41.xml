@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="TrainingView">caf3bd9d130031101b40a6fc95545452</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>fdf3bd9d7f00311001ab73d687fc8d41</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_page_property_fdf3bd9d7f00311001ab73d687fc8d41</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:42</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1034401_traini_0.caf3bd9d130031101b40a6fc95545452.root.wbApplicabilityConfigId</unique_name>
+        <value>17f3fd9d970031108c41b9dfe153af6d</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=fdf3bd9d7f00311001ab73d687fc8d41"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_page_property_fdf3bd9d7f00311001ab73d687fc8d41</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="TrainingView">caf3bd9d130031101b40a6fc95545452</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 13:55:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>fdf3bd9d7f00311001ab73d687fc8d41</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_page_property_fdf3bd9d7f00311001ab73d687fc8d41</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 13:55:42</sys_updated_on><type>string</type><unique_name>x_1034401_traini_0.caf3bd9d130031101b40a6fc95545452.root.wbApplicabilityConfigId</unique_name><value>17f3fd9d970031108c41b9dfe153af6d</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=fdf3bd9d7f00311001ab73d687fc8d41"/></record_update>]]></payload>
+        <payload_hash>419832139</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:42</sys_created_on>
+        <sys_id>9bf3fd9d970031108c41b9dfe153af74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18954af9bf20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:42</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>53f3fd9dd5003110c4687b8b9f52b274</update_guid>
+        <update_guid_history>53f3fd9dd5003110c4687b8b9f52b274:419832139,dbf3fd9d6c003110d09d30f6f4ee7772:-19948732</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 20:41:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1f99fe95a56144c9a04bb469a0712449</sys_id>
+        <sys_metadata>fdf3bd9d7f00311001ab73d687fc8d41</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_fdf3bd9d7f00311001ab73d687fc8d41</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_fdf3bd9d7f00311001ab73d687fc8d41">9bf3fd9d970031108c41b9dfe153af74</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 20:41:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

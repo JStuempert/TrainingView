@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e23f59cf973321108c41b9dfe153afad" label="Student Records" max_length="40" name="x_1034401_traini_0_student_records" type="collection">
-        <element label="Class ID" mandatory="true" max_length="50" name="class_id" type="string"/>
-        <element label="Class Title" mandatory="true" max_length="50" name="class_title" type="string"/>
-        <element label="Full Name" mandatory="true" max_length="50" name="full_name" type="string"/>
-        <element label="Instructor" mandatory="true" max_length="50" name="instructor" type="string"/>
-        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+    <element db_object_id="e23f59cf973321108c41b9dfe153afad" label="Student Records" max_length="40" name="x_1034401_traini_0_student_records" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_class_records" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Full Name" mandatory="true" max_length="32" name="full_name" reference="x_1034401_traini_0_students" type="reference"/>
+        <element label="Instructor" mandatory="true" max_length="32" name="instructor" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Registered" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Completed" value="Completed"/>
-                <element inactive_on_update="false" label="Dropped" value="Dropped"/>
-                <element inactive_on_update="false" label="In Progress" value="In Progress"/>
-                <element inactive_on_update="false" label="Registered" value="Registered"/>
+                <element inactive_on_update="false" label="Registered" sequence="0" value="Registered"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="In Progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="Completed"/>
+                <element inactive_on_update="false" label="Dropped" sequence="3" value="Dropped"/>
             </choice>
         </element>
     </element>

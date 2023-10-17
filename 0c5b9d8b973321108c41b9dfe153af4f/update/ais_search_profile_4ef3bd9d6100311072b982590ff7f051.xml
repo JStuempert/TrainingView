@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for TrainingView</description>
+        <genius_result_assembly/>
+        <label>trainingview Search Profile</label>
+        <name>x_1034401_traini_0_zrlbzxx_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <state>DRAFT</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:37</sys_created_on>
+        <sys_id>4ef3bd9d6100311072b982590ff7f051</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>trainingview Search Profile</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>ais_search_profile_4ef3bd9d6100311072b982590ff7f051</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:48</sys_updated_on>
+    </ais_search_profile>
+</record_update>

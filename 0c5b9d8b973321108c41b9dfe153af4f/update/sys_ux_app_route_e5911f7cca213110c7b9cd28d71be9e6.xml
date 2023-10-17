@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="TrainingView Config">5d911f7c972131108c41b9dfe153afa2</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>Additional Details</name>
+        <optional_parameters/>
+        <order>200</order>
+        <parent_macroponent display_value="Record Page(task)">a1911f7c7121311083fec7a7b75ab2ee</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>rec_task_additional</route_type>
+        <screen_type display_value="Additional Details">61911f7c46213110257ff7199722aee6</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 21:01:53</sys_created_on>
+        <sys_id>e5911f7cca213110c7b9cd28d71be9e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_app_route_e5911f7cca213110c7b9cd28d71be9e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:01:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=e5911f7cca213110c7b9cd28d71be9e6"/>
+</record_update>

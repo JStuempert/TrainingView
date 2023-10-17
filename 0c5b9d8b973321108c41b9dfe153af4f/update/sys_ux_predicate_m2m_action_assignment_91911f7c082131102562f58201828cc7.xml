@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">29911f7c022131109e357eedc9c213f8</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">91911f7cc6213110adc85ee88cfa7cd0</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-09-25 21:01:54</sys_created_on>
+        <sys_id>91911f7c082131102562f58201828cc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_91911f7c082131102562f58201828cc7</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-09-25 21:01:54</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

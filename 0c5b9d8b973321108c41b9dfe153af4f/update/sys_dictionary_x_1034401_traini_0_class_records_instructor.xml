@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="instructor" table="x_1034401_traini_0_class_records">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -40,11 +40,11 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_1034401_traini_0_instructors">x_1034401_traini_0_instructors</reference>
+        <reference display_value="" name="x_1034401_traini_0_instructor_qualifications">x_1034401_traini_0_instructor_qualifications</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript:"class_title="+current.class_title+"^qualified="+true;</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
@@ -58,13 +58,13 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_dictionary_x_1034401_traini_0_class_records_instructor</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-07 13:43:13</sys_updated_on>
+        <sys_updated_on>2023-09-26 01:41:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>
         <widget/>

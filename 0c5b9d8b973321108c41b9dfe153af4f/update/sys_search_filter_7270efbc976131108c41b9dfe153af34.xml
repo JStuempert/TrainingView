@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Classes">cd04f1dd970031108c41b9dfe153af1b</ais_search_source>
+        <label>Classes</label>
+        <name>Classes</name>
+        <order>400</order>
+        <search_context_config display_value="TrainingView AI Search Configuration">29706fbcf0613110017460ee4b80511a</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 22:06:56</sys_created_on>
+        <sys_id>7270efbc976131108c41b9dfe153af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_search_filter_7270efbc976131108c41b9dfe153af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 22:06:56</sys_updated_on>
+    </sys_search_filter>
+</record_update>

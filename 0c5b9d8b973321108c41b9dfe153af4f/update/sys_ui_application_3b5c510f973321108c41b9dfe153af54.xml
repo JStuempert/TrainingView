@@ -4,7 +4,7 @@
         <hint/>
         <name>Students</name>
         <order/>
-        <roles>x_1034401_traini_0.students_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-07 12:26:11</sys_created_on>

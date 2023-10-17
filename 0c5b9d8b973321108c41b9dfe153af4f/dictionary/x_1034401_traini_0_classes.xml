@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c14d514f973321108c41b9dfe153afb8" label="Classes" max_length="40" name="x_1034401_traini_0_classes" type="collection">
+    <element db_object_id="c14d514f973321108c41b9dfe153afb8" label="Classes" max_length="40" name="x_1034401_traini_0_classes" text_index="true" type="collection">
         <element label="Number of Days" mandatory="true" max_length="40" name="number_of_days" type="integer"/>
         <element label="Teaching Hours" mandatory="true" max_length="40" name="teaching_hours" type="integer"/>
         <element display="true" label="Title" mandatory="true" max_length="50" name="title" type="string"/>

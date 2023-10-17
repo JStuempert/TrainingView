@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <dashboard display_value="TrainingView">8ef3bd9d1a0031100e9736a34255294a</dashboard>
+        <name>Tab</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:38</sys_created_on>
+        <sys_id>42f3bd9dd3003110f153a7a059959b4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tab</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>par_dashboard_tab_42f3bd9dd3003110f153a7a059959b4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:38</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

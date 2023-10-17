@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmn_schedule">
+    <cmn_schedule action="INSERT_OR_UPDATE">
+        <calendar_name>Working Days</calendar_name>
+        <description/>
+        <document/>
+        <document_key/>
+        <is_legacy_schedule>true</is_legacy_schedule>
+        <label>Working Days</label>
+        <name>Working Days</name>
+        <parent/>
+        <plural_label/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-16 15:45:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d162922797f131108c41b9dfe153af9e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Working Days</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>cmn_schedule_d162922797f131108c41b9dfe153af9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-16 15:51:26</sys_updated_on>
+        <time_zone/>
+        <type/>
+    </cmn_schedule>
+</record_update>

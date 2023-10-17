@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="number_of_days" label="Number of Days" language="en" table="x_1034401_traini_0_class_records">
+    <sys_documentation element="number_of_days" label="Scheduled Duration (Days)" language="en" table="x_1034401_traini_0_class_records">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>number_of_days</element>
             <help/>
             <hint/>
-            <label>Number of Days</label>
+            <label>Scheduled Duration (Days)</label>
             <language>en</language>
             <name>x_1034401_traini_0_class_records</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-07 16:42:53</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Number of Days</sys_name>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_name>Scheduled Duration (Days)</sys_name>
             <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
             <sys_policy/>
             <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
             <sys_update_name>sys_documentation_x_1034401_traini_0_class_records_number_of_days_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 16:42:53</sys_updated_on>
+            <sys_updated_on>2023-10-16 13:56:32</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
