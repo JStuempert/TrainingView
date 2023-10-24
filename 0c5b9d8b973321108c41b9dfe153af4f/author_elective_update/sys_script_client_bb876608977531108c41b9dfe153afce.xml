@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>class_title</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Instructor pop</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var classId = g_form.getValue('class_title');
+	var ga = new GlideAjax('lookUpInstructor');
+	ga.addParam('sysparm_name', 'lookUpInstructor');
+	ga.addParam('sysparm_classId', classId);
+	ga.getXML(LookUpInstructor);
+	
+	function LookUpInstructor(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('instructor', answer);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:21:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb876608977531108c41b9dfe153afce</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Instructor pop</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_client_bb876608977531108c41b9dfe153afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:20:56</sys_updated_on>
+        <table>x_1034401_traini_0_student_records</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_client_bb876608977531108c41b9dfe153afce</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;class_title&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Instructor pop&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var classId = g_form.getValue('class_title');
+	var ga = new GlideAjax('lookUpInstructor');
+	ga.addParam('sysparm_name', 'lookUpInstructor');
+	ga.addParam('sysparm_classId', classId);
+	ga.getXML(LookUpInstructor);
+	
+	function LookUpInstructor(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('instructor', answer);
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-05 20:21:25&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bb876608977531108c41b9dfe153afce&lt;/sys_id&gt;&lt;sys_mod_count&gt;26&lt;/sys_mod_count&gt;&lt;sys_name&gt;Instructor pop&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bb876608977531108c41b9dfe153afce&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-24 17:20:56&lt;/sys_updated_on&gt;&lt;table&gt;x_1034401_traini_0_student_records&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-935543590</payload_hash>
+        <record_name>Instructor pop</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:20:56</sys_created_on>
+        <sys_id>48253b86974631108c41b9dfe153afe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b62b429510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:20:56</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8c253b86944631106dfa5f3bd7f9a6e1</update_guid>
+        <update_guid_history>8c253b86944631106dfa5f3bd7f9a6e1:-935543590,c9e4f786bd463110f59648967cc91e77:-1036752417,2fb13a44a3b531103c989e8cc4e67e35:-935543590,24713644fdb53110d024672416103e4f:830574931,f931b244efb5311026d0d742a9259b76:-1296594131,e431f2448bb5311081c16324974e7986:-699989661,2521b2443db53110befeda7850f0865f:-998087536,e1f03244cfb531107eab01981bda528e:1882909304,26c0be04d3b531102ee8608c9eb232b2:1204899652,70b0b60497b53110feb612ad0345feef:223742638,4f90ba0432b53110f653df5dc848c277:-1774314088,4c80b2c021b531103b9423c22c8a3b29:-1480513534,9630b20452b53110ceae15fff90250fd:1335726677,a0303204deb531105af159fa8c0fac9d:-1402810455,1aff62c022b531102a7609dd379b9080:-387838163,a43f26405db53110609897bf4b05a781:557366923,4b0f6e4002b53110f9367b4955e2eda2:218869958,876ea24055b5311066106966a3b260ee:-197598428,f6edaa002ab5311094084eb055daa5eb:-819852045,5c6d62008bb5311053b46a5f3c4a37d5:418618457,b0ac62cce17531101160916f8492dd9c:-1643089222,2dda6ec8e1753110e77518152275ead7:2012130764,935ae6c8f4753110a26358f337146787:785992212,613a6ac8d47531104256d5c4e9c67a7f:934996707,53096288bd7531101d9e82778eb18be3:-737271035,c1a82648ec7531100b06c2543aefe619:934996707,e638ee08a77531108eaa0a1539f666e8:-737271035</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:24:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>041cad330f774890a42c1e0093bd7900</sys_id>
+        <sys_metadata>bb876608977531108c41b9dfe153afce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor pop</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Student Records">e23f59cf973321108c41b9dfe153afad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_bb876608977531108c41b9dfe153afce</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bb876608977531108c41b9dfe153afce">48253b86974631108c41b9dfe153afe2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:24:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

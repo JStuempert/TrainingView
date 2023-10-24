@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="bc723b7097e131108c41b9dfe153af06" extends="sys_import_set_row" label="TrainingView Students" max_length="40" name="x_1034401_traini_0_trainingview_students" type="collection">
+    <element db_object_id="bc723b7097e131108c41b9dfe153af06" extends="sys_import_set_row" label="TrainingView Students" max_length="40" name="x_1034401_traini_0_trainingview_students" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=AFSC" label="AFSC" max_length="40" name="u_afsc" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=First Name" label="First Name" max_length="40" name="u_first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Full Name" label="Full Name" max_length="40" name="u_full_name" type="string"/>

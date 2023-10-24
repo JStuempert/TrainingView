@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1034401_traini_0.lookUpInstructor</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lookUpInstructor</name>
+        <script><![CDATA[var lookUpInstructor = Class.create();
+lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	lookUpInstructor: function(){
+		
+		var instructor = '';
+		var classId = this.getParameter('sysparm_classId');
+		var gr = new GlideRecord('x_1034401_traini_0_class_records');
+		gr.addQuery('sys_id', classId);
+		gr.query();
+		if (gr.next()){
+			instructor = gr.getValue('instructor');
+		}
+		
+		return instructor.toString();
+	},
+
+    type: 'lookUpInstructor'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 20:16:33</sys_created_on>
+        <sys_id>92052e44977531108c41b9dfe153aff5</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>lookUpInstructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_include_92052e44977531108c41b9dfe153aff5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:11:35</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_include_92052e44977531108c41b9dfe153aff5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1034401_traini_0.lookUpInstructor&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;lookUpInstructor&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var lookUpInstructor = Class.create();
+lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	lookUpInstructor: function(){
+		
+		var instructor = '';
+		var classId = this.getParameter('sysparm_classId');
+		var gr = new GlideRecord('x_1034401_traini_0_class_records');
+		gr.addQuery('sys_id', classId);
+		gr.query();
+		if (gr.next()){
+			instructor = gr.getValue('instructor');
+		}
+		
+		return instructor.toString();
+	},
+
+    type: 'lookUpInstructor'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-05 20:16:33&lt;/sys_created_on&gt;&lt;sys_id&gt;92052e44977531108c41b9dfe153aff5&lt;/sys_id&gt;&lt;sys_mod_count&gt;28&lt;/sys_mod_count&gt;&lt;sys_name&gt;lookUpInstructor&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_92052e44977531108c41b9dfe153aff5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-24 17:11:35&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1678831216</payload_hash>
+        <record_name>lookUpInstructor</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:11:35</sys_created_on>
+        <sys_id>d7f23f46974631108c41b9dfe153af89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b62ab9bf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:11:35</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>dbf23f46194631100891a2fd55a7ef88</update_guid>
+        <update_guid_history>dbf23f46194631100891a2fd55a7ef88:1678831216,8b4133c24d463110b450e96240cc72c3:-103643291,2256a1e738313110ddb705c45d53f81b:-914118671,cda1ba4489b53110d3a8c60073d56d0b:981168493,14bfea805db53110b3befbd7a21c2f0f:-1580420845,f79f6a80d8b53110010c449cbeb3a927:-1450877846,568fee4054b53110da2e84f2227c10d7:-135765296,215fee4022b531105a2b6a9219c4dcc0:981168493,c3eea24035b531109e51ad3b146f82f6:323102328,f1be6640ebb5311003c1e9e789b4773b:-2094043518,2e7eea0059b5311093e50d1e098f2472:-1519375544,9d7cea8cf5753110c2add51b4e6654fe:-1531240034,6c2b6a0c2275311014541e918d273b26:-1479350696,141b6a0c5f753110a24179f044b14293:-1163650549,1c4ae6c8da7531107db599a8a7b87614:-1479350696,651aee888a753110c08c19d9fefcb409:1946224077,f7c9ae882b7531100822ef337fd18967:-816379922,e6b9ee88a575311027b212cbe2474edf:-252041560,90b9ee88567531105d858848d185360b:1184474398,a6a9aa888e7531100ee17398ce86e62b:534353587,c489aa887f7531109325c56ab3d10241:-1479350696,f879a68847753110a62fee0cf05327e8:-816379922,aa49e6485075311024998da7dc72dc90:-559981111,0f292688da75311069771fdbb3e6a735:1043169042,f9e8ae486b753110c05b95ebee4769c4:1266238184,0db8e648067531107478a53780c0a72a:-1978809748,7088ae0857753110a59d23785153a00b:-266618238,2258a248dd7531104afc97d4f0fcb2b8:-82579116,9b172e84ee753110e044a5ee3f315f78:-1089798166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-24 17:24:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>c66b554b9da248149279e8a017291ae1</sys_id>
+        <sys_metadata>92052e44977531108c41b9dfe153aff5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lookUpInstructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_include_92052e44977531108c41b9dfe153aff5</sys_update_name>
+        <sys_update_version display_value="sys_script_include_92052e44977531108c41b9dfe153aff5">d7f23f46974631108c41b9dfe153af89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-24 17:24:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

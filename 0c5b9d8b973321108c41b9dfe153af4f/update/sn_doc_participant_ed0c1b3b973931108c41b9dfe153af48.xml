@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_participant">
+    <sn_doc_participant action="INSERT_OR_UPDATE">
+        <action>fill</action>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units/>
+        <doc_task_template/>
+        <doc_template_table>x_1034401_traini_0_student_records</doc_template_table>
+        <doc_template_user>certifier</doc_template_user>
+        <document_template display_value="Grad Cert">36e70ff397f531108c41b9dfe153af31</document_template>
+        <due_date_source/>
+        <name>Certifier</name>
+        <optional>false</optional>
+        <order>100</order>
+        <participant_email/>
+        <participant_name/>
+        <script/>
+        <signature_height>40</signature_height>
+        <signature_width>100</signature_width>
+        <sys_class_name>sn_doc_participant</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 15:45:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ed0c1b3b973931108c41b9dfe153af48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certifier</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sn_doc_participant_ed0c1b3b973931108c41b9dfe153af48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 15:45:52</sys_updated_on>
+    </sn_doc_participant>
+</record_update>

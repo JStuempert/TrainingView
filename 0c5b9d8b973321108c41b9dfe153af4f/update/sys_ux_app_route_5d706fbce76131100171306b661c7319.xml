@@ -3,10 +3,10 @@
         <app_config display_value="TrainingView Config">e9706fbc6a613110103fd79ded336824</app_config>
         <description/>
         <extension_point/>
-        <fields/>
+        <fields>table</fields>
         <icon/>
         <name>Home</name>
-        <optional_parameters>sysId,openInEditMode</optional_parameters>
+        <optional_parameters>openInEditMode,query,views,activityLogs,extraParams,fields,screen,selectedTabIndex,userPrefs,sysId</optional_parameters>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
@@ -16,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-09-25 22:06:51</sys_created_on>
         <sys_id>5d706fbce76131100171306b661c7319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_app_route_5d706fbce76131100171306b661c7319</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-25 22:06:51</sys_updated_on>
+        <sys_updated_on>2023-10-24 16:34:04</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=5d706fbce76131100171306b661c7319"/>
 </record_update>

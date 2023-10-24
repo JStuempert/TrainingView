@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c27e677c97a131108c41b9dfe153afc4" extends="sys_import_set_row" label="TrainingView Classes" max_length="40" name="x_1034401_traini_0_trainingview_classes" type="collection">
+    <element db_object_id="c27e677c97a131108c41b9dfe153afc4" extends="sys_import_set_row" label="TrainingView Classes" max_length="40" name="x_1034401_traini_0_trainingview_classes" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Class Subject" label="Class Subject" max_length="41" name="u_class_subject" type="string"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Days Needed" label="Days Needed" max_length="40" name="u_days_needed" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=Hours Needed" label="Hours Needed" max_length="40" name="u_hours_needed" type="integer"/>

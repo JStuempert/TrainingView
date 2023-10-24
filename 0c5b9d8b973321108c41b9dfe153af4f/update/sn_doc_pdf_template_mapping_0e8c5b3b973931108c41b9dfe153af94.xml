@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_pdf_template_mapping">
+    <sn_doc_pdf_template_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <box_height>30</box_height>
+        <box_width>185</box_width>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <doc_left>624</doc_left>
+        <doc_top>876</doc_top>
+        <document display_value="Grad Cert">36e70ff397f531108c41b9dfe153af31</document>
+        <document_field/>
+        <document_field_label>Certify</document_field_label>
+        <document_field_type>signature</document_field_type>
+        <format/>
+        <mandatory>true</mandatory>
+        <mapping_field/>
+        <mapping_table>x_1034401_traini_0_student_records</mapping_table>
+        <page_number>1</page_number>
+        <participant display_value="Certifier">ed0c1b3b973931108c41b9dfe153af48</participant>
+        <preview_value/>
+        <read_only>false</read_only>
+        <script/>
+        <select_date_format/>
+        <sign_bottom>115</sign_bottom>
+        <sign_left>59</sign_left>
+        <sign_top>511</sign_top>
+        <specific_date_format/>
+        <states/>
+        <sys_class_name>sn_doc_pdf_template_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 15:47:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0e8c5b3b973931108c41b9dfe153af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certify</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sn_doc_pdf_template_mapping_0e8c5b3b973931108c41b9dfe153af94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 15:47:08</sys_updated_on>
+    </sn_doc_pdf_template_mapping>
+</record_update>

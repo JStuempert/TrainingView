@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_pdf_template_mapping">
+    <sn_doc_pdf_template_mapping action="DELETE">
+        <active>true</active>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <box_height/>
+        <box_width/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <doc_left/>
+        <doc_top/>
+        <document display_value="Copy of Grad Cert">b399cb7797f531108c41b9dfe153af5b</document>
+        <document_field>Grad Date</document_field>
+        <document_field_label>Grad Date</document_field_label>
+        <document_field_type>text</document_field_type>
+        <format/>
+        <mandatory>false</mandatory>
+        <mapping_field>sys_updated_on</mapping_field>
+        <mapping_table>x_1034401_traini_0_student_records</mapping_table>
+        <page_number>1</page_number>
+        <participant/>
+        <preview_value>Grad Date</preview_value>
+        <read_only>false</read_only>
+        <script/>
+        <select_date_format/>
+        <sign_bottom/>
+        <sign_left/>
+        <sign_top/>
+        <specific_date_format/>
+        <states/>
+        <sys_class_name>sn_doc_pdf_template_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 14:24:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>04a903b797f531108c41b9dfe153af40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grad Date</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sn_doc_pdf_template_mapping_04a903b797f531108c41b9dfe153af40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 14:24:32</sys_updated_on>
+    </sn_doc_pdf_template_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sn_doc_pdf_template_mapping_04a903b797f531108c41b9dfe153af40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_pdf_template_mapping"><sn_doc_pdf_template_mapping action="INSERT_OR_UPDATE"><active>true</active><advanced_script_toggle>false</advanced_script_toggle><box_height/><box_width/><date_offset_quantity>0</date_offset_quantity><date_offset_type>on</date_offset_type><date_offset_units>days</date_offset_units><doc_left/><doc_top/><document display_value="Copy of Grad Cert">b399cb7797f531108c41b9dfe153af5b</document><document_field>Grad Date</document_field><document_field_label>Grad Date</document_field_label><document_field_type>text</document_field_type><format/><mandatory>false</mandatory><mapping_field>sys_updated_on</mapping_field><mapping_table>x_1034401_traini_0_student_records</mapping_table><page_number>1</page_number><participant/><preview_value>Grad Date</preview_value><read_only>false</read_only><script/><select_date_format/><sign_bottom/><sign_left/><sign_top/><specific_date_format/><states/><sys_class_name>sn_doc_pdf_template_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-17 14:24:32</sys_created_on><sys_domain>global</sys_domain><sys_id>04a903b797f531108c41b9dfe153af40</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Grad Date</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sn_doc_pdf_template_mapping_04a903b797f531108c41b9dfe153af40</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-17 14:24:32</sys_updated_on></sn_doc_pdf_template_mapping></record_update>]]></payload>
+        <payload_hash>-1119296252</payload_hash>
+        <record_name>Grad Date</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 14:24:32</sys_created_on>
+        <sys_id>cca903b797f531108c41b9dfe153af41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b3e0627f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 14:24:32</sys_updated_on>
+        <type>Template Mapping</type>
+        <update_guid>c0a903b785f5311099da1610558eb641</update_guid>
+        <update_guid_history>c0a903b785f5311099da1610558eb641:-1119296252</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Grad Date">25a943b797f531108c41b9dfe153af0c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 14:24:39</sys_created_on>
+        <sys_db_object display_value="" name="sn_doc_pdf_template_mapping">sn_doc_pdf_template_mapping</sys_db_object>
+        <sys_id>28b1da565058469f8a4098ce02872e01</sys_id>
+        <sys_metadata>04a903b797f531108c41b9dfe153af40</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grad Date</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sn_doc_pdf_template_mapping_04a903b797f531108c41b9dfe153af40</sys_update_name>
+        <sys_update_version display_value="sn_doc_pdf_template_mapping_04a903b797f531108c41b9dfe153af40">cca903b797f531108c41b9dfe153af41</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 14:24:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

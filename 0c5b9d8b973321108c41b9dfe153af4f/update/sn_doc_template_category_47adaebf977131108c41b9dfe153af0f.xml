@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_doc_template_category">
+    <sn_doc_template_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Graduation Certificates</name>
+        <sys_class_name>sn_doc_template_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-17 12:22:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>47adaebf977131108c41b9dfe153af0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Graduation Certificates</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sn_doc_template_category_47adaebf977131108c41b9dfe153af0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-17 12:22:42</sys_updated_on>
+    </sn_doc_template_category>
+</record_update>
