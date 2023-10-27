@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="List">71b2c0a6978671108c41b9dfe153af70</macroponent>
+        <name>List CRUD </name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, imports}) {
+  let type = '';
+	if(event.name === "NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED") {
+		type = "CREATE";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED") {
+		type = "DESTROY";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED" ||  event.name  ===  "NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED" || event.name  === "NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED") {
+		type = "UPDATE";
+	}
+
+	const CRUD = {
+		type: type,
+		options: event.payload.update,
+		timestamp: event.payload.timestamp
+	};
+	
+	api.setState('CRUD', CRUD);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:48</sys_created_on>
+        <sys_id>cab2c8a6978671108c41b9dfe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List CRUD </sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_client_script_cab2c8a6978671108c41b9dfe153af9f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:48</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_client_script_cab2c8a6978671108c41b9dfe153af9f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="List"&gt;71b2c0a6978671108c41b9dfe153af70&lt;/macroponent&gt;&lt;name&gt;List CRUD &lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, imports}) {
+  let type = '';
+	if(event.name === "NOW_RECORD_LIST_CONNECTED#SAVE_AS_REQUESTED") {
+		type = "CREATE";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#DELETE_REQUESTED") {
+		type = "DESTROY";
+	}
+	else if (event.name  ===  "NOW_RECORD_LIST_CONNECTED#RENAME_REQUESTED" ||  event.name  ===  "NOW_RECORD_LIST_CONNECTED#EDIT_COLUMNS_REQUESTED" || event.name  === "NOW_RECORD_LIST_CONNECTED#SAVE_REQUESTED") {
+		type = "UPDATE";
+	}
+
+	const CRUD = {
+		type: type,
+		options: event.payload.update,
+		timestamp: event.payload.timestamp
+	};
+	
+	api.setState('CRUD', CRUD);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-25 12:58:48&lt;/sys_created_on&gt;&lt;sys_id&gt;cab2c8a6978671108c41b9dfe153af9f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;List CRUD &lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_cab2c8a6978671108c41b9dfe153af9f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-25 12:58:48&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-774595181</payload_hash>
+        <record_name>List CRUD </record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:49</sys_created_on>
+        <sys_id>52b20ca6978671108c41b9dfe153af08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b66ea8da20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:49</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>96b20ca6698671109503bf83b2b79c07</update_guid>
+        <update_guid_history>96b20ca6698671109503bf83b2b79c07:-774595181,1ab2c8a667867110a56c60bbfc0509e7:1571946688,0eb2c8a66c867110e75d2a3d75075fa6:-774595181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 13:54:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0739854cda1043249496f1e3dbbaa071</sys_id>
+        <sys_metadata>cab2c8a6978671108c41b9dfe153af9f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List CRUD </sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_cab2c8a6978671108c41b9dfe153af9f</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_cab2c8a6978671108c41b9dfe153af9f">52b20ca6978671108c41b9dfe153af08</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 13:54:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description>List New button to List page's Open Modal</description>
+        <name>list page UXF List New</name>
+        <parent_macroponent display_value="List">71b2c0a6978671108c41b9dfe153af70</parent_macroponent>
+        <source_component/>
+        <source_da display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a2b20ca6978671108c41b9dfe153af35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list page UXF List New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_a2b20ca6978671108c41b9dfe153af35</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:50</sys_updated_on>
+        <target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event>
+        <target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_addon_event_mapping_a2b20ca6978671108c41b9dfe153af35</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description>List New button to List page's Open Modal</description><name>list page UXF List New</name><parent_macroponent display_value="List">71b2c0a6978671108c41b9dfe153af70</parent_macroponent><source_component/><source_da display_value="create-new-uxf">17c13e7273131010a0a79329faf6a794</source_da><source_element_id>list</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-25 12:58:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a2b20ca6978671108c41b9dfe153af35</sys_id><sys_mod_count>0</sys_mod_count><sys_name>list page UXF List New</sys_name><sys_overrides/><sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_addon_event_mapping_a2b20ca6978671108c41b9dfe153af35</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-25 12:58:50</sys_updated_on><target_event display_value="LIST#NAV_ITEM_SELECTED">8c1321d50f1310107d20409dc4767e52</target_event><target_payload_mapping>{
+  "type": "MAP_CONTAINER",
+  "container": {
+    "route": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "route"
+        ]
+      }
+    },
+    "fields": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "fields"
+        ]
+      }
+    },
+    "multiInstField": "sysId",
+    "params": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "params"
+        ]
+      }
+    },
+    "redirect": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "redirect"
+        ]
+      }
+    },
+    "passiveNavigation": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "passiveNavigation"
+        ]
+      }
+    },
+    "title": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "title"
+        ]
+      }
+    },
+    "external": {
+      "type": "EVENT_PAYLOAD_BINDING",
+      "binding": {
+        "address": [
+          "external"
+        ]
+      }
+    }
+  }
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>-1175363804</payload_hash>
+        <record_name>list page UXF List New</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:50</sys_created_on>
+        <sys_id>aeb20ca6978671108c41b9dfe153af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b66ea90830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:50</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>a2b20ca6978671107f35ed0f5da2a536</update_guid>
+        <update_guid_history>a2b20ca6978671107f35ed0f5da2a536:-1175363804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 13:54:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>087340196d8d47d4873c848877544184</sys_id>
+        <sys_metadata>a2b20ca6978671108c41b9dfe153af35</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list page UXF List New</sys_name>
+        <sys_package display_value="Common Page Templates" source="sn_uib_base_aw">4d3530700f3110107d20409dc4767e42</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_a2b20ca6978671108c41b9dfe153af35</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_a2b20ca6978671108c41b9dfe153af35">aeb20ca6978671108c41b9dfe153af36</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 13:54:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

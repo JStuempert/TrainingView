@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>class_title</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Minimum days alert on class title</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+		var scheduledDays = g_form.getValue('number_of_days');
+	var requiredDays = g_form.getValue('class_days_required');
+	
+	if (parseInt(scheduledDays) < parseInt(requiredDays))
+		{
+			g_form.showFieldMsg('number_of_days', 'The duration of this course does not meet the minimum requirement', 'error');
+		}
+	else
+		{
+			return true;
+		}
+		
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 12:46:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9dd2da079746b1108c41b9dfe153afd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Minimum days alert on class title</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_client_9dd2da079746b1108c41b9dfe153afd8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 12:46:06</sys_updated_on>
+        <table>x_1034401_traini_0_class_records</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_script_client_9dd2da079746b1108c41b9dfe153afd8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;class_title&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Minimum days alert on class title&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+		var scheduledDays = g_form.getValue('number_of_days');
+	var requiredDays = g_form.getValue('class_days_required');
+	
+	if (parseInt(scheduledDays) &lt; parseInt(requiredDays))
+		{
+			g_form.showFieldMsg('number_of_days', 'The duration of this course does not meet the minimum requirement', 'error');
+		}
+	else
+		{
+			return true;
+		}
+		
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-27 12:46:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9dd2da079746b1108c41b9dfe153afd8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Minimum days alert on class title&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9dd2da079746b1108c41b9dfe153afd8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-27 12:46:06&lt;/sys_updated_on&gt;&lt;table&gt;x_1034401_traini_0_class_records&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>751817541</payload_hash>
+        <record_name>Minimum days alert on class title</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 12:46:07</sys_created_on>
+        <sys_id>e3f216479746b1108c41b9dfe153afe8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b712ba2a50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 12:46:07</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a3f2da07e446b110486942fc0347d46e</update_guid>
+        <update_guid_history>a3f2da07e446b110486942fc0347d46e:751817541</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-27 12:47:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4c103e3c64e24a6f9bc5032170c801c1</sys_id>
+        <sys_metadata>9dd2da079746b1108c41b9dfe153afd8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Minimum days alert on class title</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Class Records">8d96210b977321108c41b9dfe153afae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_script_client_9dd2da079746b1108c41b9dfe153afd8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9dd2da079746b1108c41b9dfe153afd8">e3f216479746b1108c41b9dfe153afe8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 12:47:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

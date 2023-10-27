@@ -21,7 +21,7 @@ lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 		while (gr.next())
 			{
 				instructor.id = gr.getValue('sys_id');
-				instructor.name = gr.getDisplayValue('instructor.instructor');
+				instructor.name = gr.getDisplayValue('instructor');
 			}
 		
 		return JSON.stringify(instructor);
@@ -33,13 +33,13 @@ lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-24 18:29:37</sys_created_on>
         <sys_id>1564085a978631108c41b9dfe153af96</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>lookUpInstructor</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_include_1564085a978631108c41b9dfe153af96</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 19:32:28</sys_updated_on>
+        <sys_updated_on>2023-10-24 21:22:08</sys_updated_on>
     </sys_script_include>
 </record_update>

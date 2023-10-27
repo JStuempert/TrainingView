@@ -9,9 +9,9 @@
                 <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_classes" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="class_title.class_title" dependent_on_field="class_title.class_title" display="true" label="Class Title" mandatory="true" max_length="32" name="class_title" reference="x_1034401_traini_0_classes" type="reference" use_dependent_field="true"/>
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Instructor" max_length="32" name="instructor" reference="x_1034401_traini_0_instructor_qualifications" reference_qual="javascript:&quot;class_title=&quot;+current.class_title+&quot;^qualified=&quot;+true;" type="reference" use_reference_qualifier="advanced"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Instructor" mandatory="true" max_length="32" name="instructor" reference="x_1034401_traini_0_instructor_qualifications" reference_qual="javascript:&quot;class_title=&quot;+current.class_title+&quot;^qualified=&quot;+true;" type="reference" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" label="Scheduled Duration (Days)" max_length="40" name="number_of_days" read_only="true" type="integer"/>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
     </element>

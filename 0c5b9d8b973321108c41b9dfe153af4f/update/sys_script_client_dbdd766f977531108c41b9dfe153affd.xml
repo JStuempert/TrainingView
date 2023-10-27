@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>hour-based alert</name>
+        <name>Minimum days alert on scheduled dur</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue === '') {
@@ -36,15 +36,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dbdd766f977531108c41b9dfe153affd</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>hour-based alert</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Minimum days alert on scheduled dur</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_client_dbdd766f977531108c41b9dfe153affd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-16 19:00:56</sys_updated_on>
+        <sys_updated_on>2023-10-27 12:45:18</sys_updated_on>
         <table>x_1034401_traini_0_class_records</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

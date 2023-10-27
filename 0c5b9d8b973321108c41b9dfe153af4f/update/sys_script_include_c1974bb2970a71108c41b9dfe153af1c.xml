@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1034401_traini_0.checkScheduleOverlap</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>checkScheduleOverlap</name>
+        <script><![CDATA[var checkScheduleOverlap = Class.create();
+checkScheduleOverlap.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	checkScheduleOverlap: function(){
+		
+		var arrayUtil = new global.ArrayUtil();
+		var dateArray =  new DateArray();
+		var instructor = this.getParameter('sysparm_instructor');
+		var startDate = new GlideDateTime(this.getParameter('sysparm_startDate'));
+		var endDate = new GlideDateTime(this.getParameter('sysparm_endDate'));
+		var formDateArray = dateArray.create(startDate, endDate);
+		var recordDateArray = [];
+		
+		
+		var gr = new GlideRecord('x_1034401_traini_0_class_records');
+		gr.addQuery('instructor', instructor);
+		gr.query();
+		while (gr.next()){
+			
+			var start = new GlideDateTime(gr.getValue('start_date'));
+			var end = new GlideDateTime(gr.getValue('end_date'));
+			recordDateArray = dateArray.create(start, end);
+			var arrays = formDateArray + '   ' + recordDateArray;
+			
+			for (i = 0; i <= recordDateArray.length + 1; i++)
+				{
+					if (arrayUtil.contains(formDateArray, recordDateArray[i]) || arrayUtil.contains(recordDateArray, formDateArray[i]))
+						{
+							
+							return true;
+						}
+					else return false;
+				}
+					
+		}
+			
+			
+			/*for (n = 0; n <= recordDateArray.length; n++)
+				{
+					if (recordDateArray.indexOf(formDateArray[n]) > -1 || formDateArray.indexOf(recordDateArray[n]) > -1)
+						{
+							
+							return true;
+						}
+					else return false;
+				}
+			
+		
+		}*/
+		
+		
+	},
+
+    type: 'checkScheduleOverlap'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-26 22:28:01</sys_created_on>
+        <sys_id>c1974bb2970a71108c41b9dfe153af1c</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name>checkScheduleOverlap</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_script_include_c1974bb2970a71108c41b9dfe153af1c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 12:31:51</sys_updated_on>
+    </sys_script_include>
+</record_update>

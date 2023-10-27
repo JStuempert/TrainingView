@@ -19,8 +19,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
+        <dependent>class_title.class_title</dependent>
+        <dependent_on_field>class_title.class_title</dependent_on_field>
         <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -58,11 +58,11 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_dictionary_x_1034401_traini_0_class_records_class_title</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-09-26 21:08:35</sys_updated_on>
+        <sys_updated_on>2023-10-26 18:53:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

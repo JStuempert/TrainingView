@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="DELETE">
+        <active>true</active>
+        <controller/>
+        <description/>
+        <name>list page List New Problem task</name>
+        <parent_macroponent display_value="List">71b2c0a6978671108c41b9dfe153af70</parent_macroponent>
+        <source_component/>
+        <source_da display_value="sow_list_new_problem_task">08b9e0520b7230106237818393673a89</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26b20ca6978671108c41b9dfe153af37</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list page List New Problem task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Problem Management for Service Operations Workspace" source="sn_sow_problem">54a81ee10b11301039dd818393673a5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_26b20ca6978671108c41b9dfe153af37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:50</sys_updated_on>
+        <target_event display_value="LIST#OPEN_MODAL">2640a5150f1310107d20409dc4767e8a</target_event>
+        <target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+    "route": {&#13;
+        "type": "JSON_LITERAL",&#13;
+        "value": "interceptor"&#13;
+    },&#13;
+    "size": {&#13;
+      "type": "JSON_LITERAL",&#13;
+      "value": "lg"&#13;
+    },&#13;
+    "fields": {&#13;
+      "type": "MAP_CONTAINER",&#13;
+      "container": {&#13;
+        "table": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["table"]&#13;
+          }&#13;
+        },&#13;
+        "sysId": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["sysId"]&#13;
+          }&#13;
+        },&#13;
+        "pageTitle": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["pageTitle"]&#13;
+          }&#13;
+        },&#13;
+        "pageSubTitle": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["pageSubTitle"]&#13;
+          }&#13;
+        },&#13;
+        "useDomain": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["useDomain"]&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "params": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "params"&#13;
+          ]&#13;
+        }&#13;
+    }&#13;
+  }&#13;
+}</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_addon_event_mapping_26b20ca6978671108c41b9dfe153af37</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><controller/><description/><name>list page List New Problem task</name><parent_macroponent display_value="List">71b2c0a6978671108c41b9dfe153af70</parent_macroponent><source_component/><source_da display_value="sow_list_new_problem_task">08b9e0520b7230106237818393673a89</source_da><source_element_id>list</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-25 12:58:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>26b20ca6978671108c41b9dfe153af37</sys_id><sys_mod_count>0</sys_mod_count><sys_name>list page List New Problem task</sys_name><sys_overrides/><sys_package display_value="Problem Management for Service Operations Workspace" source="sn_sow_problem">54a81ee10b11301039dd818393673a5c</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ux_addon_event_mapping_26b20ca6978671108c41b9dfe153af37</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-25 12:58:50</sys_updated_on><target_event display_value="LIST#OPEN_MODAL">2640a5150f1310107d20409dc4767e8a</target_event><target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+    "route": {&#13;
+        "type": "JSON_LITERAL",&#13;
+        "value": "interceptor"&#13;
+    },&#13;
+    "size": {&#13;
+      "type": "JSON_LITERAL",&#13;
+      "value": "lg"&#13;
+    },&#13;
+    "fields": {&#13;
+      "type": "MAP_CONTAINER",&#13;
+      "container": {&#13;
+        "table": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["table"]&#13;
+          }&#13;
+        },&#13;
+        "sysId": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["sysId"]&#13;
+          }&#13;
+        },&#13;
+        "pageTitle": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["pageTitle"]&#13;
+          }&#13;
+        },&#13;
+        "pageSubTitle": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["pageSubTitle"]&#13;
+          }&#13;
+        },&#13;
+        "useDomain": {&#13;
+          "type": "EVENT_PAYLOAD_BINDING",&#13;
+          "binding": {&#13;
+            "address": ["useDomain"]&#13;
+          }&#13;
+        }&#13;
+      }&#13;
+    },&#13;
+    "params": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "params"&#13;
+          ]&#13;
+        }&#13;
+    }&#13;
+  }&#13;
+}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></payload>
+        <payload_hash>1491932655</payload_hash>
+        <record_name>list page List New Problem task</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 12:58:50</sys_created_on>
+        <sys_id>22b20ca6978671108c41b9dfe153af39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b66ea909d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 12:58:50</sys_updated_on>
+        <type>UX Add-on Event Mapping</type>
+        <update_guid>26b20ca6e8867110e4b6a881e24c9538</update_guid>
+        <update_guid_history>26b20ca6e8867110e4b6a881e24c9538:1491932655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-25 13:54:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_addon_event_mapping">sys_ux_addon_event_mapping</sys_db_object>
+        <sys_id>08a8829da367469083d03b814277cfc1</sys_id>
+        <sys_metadata>26b20ca6978671108c41b9dfe153af37</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list page List New Problem task</sys_name>
+        <sys_package display_value="Problem Management for Service Operations Workspace" source="sn_sow_problem">54a81ee10b11301039dd818393673a5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_addon_event_mapping_26b20ca6978671108c41b9dfe153af37</sys_update_name>
+        <sys_update_version display_value="sys_ux_addon_event_mapping_26b20ca6978671108c41b9dfe153af37">22b20ca6978671108c41b9dfe153af39</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-25 13:54:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

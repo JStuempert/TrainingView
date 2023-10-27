@@ -152,7 +152,7 @@
         <name>Simple List Default</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
-        <required_translations>[]</required_translations>
+        <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
         <screen_type display_value="Simple List">5b4ce38e090631105949cbc6846409b3</screen_type>
@@ -162,7 +162,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9b4ce38e2706311016e27a82d70331ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Simple List Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -170,7 +170,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_screen_9b4ce38e2706311016e27a82d70331ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 16:42:24</sys_updated_on>
+        <sys_updated_on>2023-10-25 13:08:53</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=9b4ce38e2706311016e27a82d70331ac"/>
 </record_update>
