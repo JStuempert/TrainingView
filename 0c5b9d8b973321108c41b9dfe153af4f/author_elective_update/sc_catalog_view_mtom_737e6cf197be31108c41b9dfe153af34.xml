@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="DELETE">
+        <default>true</default>
+        <sc_catalog display_value="Learning Management">f81de4f197be31108c41b9dfe153af23</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:01:43</sys_created_on>
+        <sys_id>737e6cf197be31108c41b9dfe153af34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Management.catalog_learning_management</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_learning_management">337e6cf197be31108c41b9dfe153af32</sys_portal_page>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_737e6cf197be31108c41b9dfe153af34</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:01:43</sys_updated_on>
+    </sc_catalog_view_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sc_catalog_view_mtom_737e6cf197be31108c41b9dfe153af34</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom"><sc_catalog_view_mtom action="INSERT_OR_UPDATE"><default>true</default><sc_catalog display_value="Learning Management">f81de4f197be31108c41b9dfe153af23</sc_catalog><sys_class_name>sc_catalog_view_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 15:01:43</sys_created_on><sys_id>737e6cf197be31108c41b9dfe153af34</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Learning Management.catalog_learning_management</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_portal_page display_value="catalog_learning_management">337e6cf197be31108c41b9dfe153af32</sys_portal_page><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sc_catalog_view_mtom_737e6cf197be31108c41b9dfe153af34</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 15:01:43</sys_updated_on></sc_catalog_view_mtom></record_update>]]></payload>
+        <payload_hash>-377722827</payload_hash>
+        <record_name>Learning Management.catalog_learning_management</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:01:43</sys_created_on>
+        <sys_id>7b7e247597be31108c41b9dfe153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1b99a7120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:01:43</sys_updated_on>
+        <type>Catalog Portal Page</type>
+        <update_guid>7f7e2475bebe311031e5a2406daba60b</update_guid>
+        <update_guid_history>7f7e2475bebe311031e5a2406daba60b:-377722827</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Learning Management.catalog_learning_management">9cd244a297f231108c41b9dfe153afe9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 19:46:19</sys_created_on>
+        <sys_db_object display_value="" name="sc_catalog_view_mtom">sc_catalog_view_mtom</sys_db_object>
+        <sys_id>037320c7fafc44c6801e4b4fe7896139</sys_id>
+        <sys_metadata>737e6cf197be31108c41b9dfe153af34</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Management.catalog_learning_management</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Learning Management">f81de4f197be31108c41b9dfe153af23</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sc_catalog_view_mtom_737e6cf197be31108c41b9dfe153af34</sys_update_name>
+        <sys_update_version display_value="sc_catalog_view_mtom_737e6cf197be31108c41b9dfe153af34">7b7e247597be31108c41b9dfe153af0c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 19:46:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

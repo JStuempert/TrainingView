@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="List Default Admins">72bb5ac597d631108c41b9dfe153af11</macroponent>
+        <name>List Modal</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+        api,
+        event,
+        imports,
+        helpers
+    }) {
+    
+    const { name, payload: { route, fields, params, size = 'md', ariaLabel }} = event;
+    
+    if (name === 'LIST#CLOSE_MODAL')
+        helpers.modal.close();
+    
+    else if (name === 'LIST#OPEN_MODAL') {
+        if (!route)
+            return;
+            
+        api.setState('bare', true);
+        api.setState('displayOptions', { size: size, label: ariaLabel });
+        api.setState('contents', {
+            route: route,
+            fields: fields,
+            params: params
+        });
+    }
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:09</sys_created_on>
+        <sys_id>c7bb9ac597d631108c41b9dfe153afb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Modal</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_client_script_c7bb9ac597d631108c41b9dfe153afb1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_client_script_c7bb9ac597d631108c41b9dfe153afb1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="List Default Admins"&gt;72bb5ac597d631108c41b9dfe153af11&lt;/macroponent&gt;&lt;name&gt;List Modal&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+        api,
+        event,
+        imports,
+        helpers
+    }) {
+    
+    const { name, payload: { route, fields, params, size = 'md', ariaLabel }} = event;
+    
+    if (name === 'LIST#CLOSE_MODAL')
+        helpers.modal.close();
+    
+    else if (name === 'LIST#OPEN_MODAL') {
+        if (!route)
+            return;
+            
+        api.setState('bare', true);
+        api.setState('displayOptions', { size: size, label: ariaLabel });
+        api.setState('contents', {
+            route: route,
+            fields: fields,
+            params: params
+        });
+    }
+    
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-02 18:32:09&lt;/sys_created_on&gt;&lt;sys_id&gt;c7bb9ac597d631108c41b9dfe153afb1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;List Modal&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_c7bb9ac597d631108c41b9dfe153afb1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-02 18:32:09&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>444474405</payload_hash>
+        <record_name>List Modal</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:10</sys_created_on>
+        <sys_id>9bbb9ac597d631108c41b9dfe153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b914e9d710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:10</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>dfbb9ac57bd63110959bb664d3934ad5</update_guid>
+        <update_guid_history>dfbb9ac57bd63110959bb664d3934ad5:444474405,1fbb9ac5ccd63110324a6d7598e66b66:-388166787,dbbb9ac5d1d6311025ae211b464d10b9:444474405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>10727e2fccf447c08a3693b0224310e1</sys_id>
+        <sys_metadata>c7bb9ac597d631108c41b9dfe153afb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Modal</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_c7bb9ac597d631108c41b9dfe153afb1</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_c7bb9ac597d631108c41b9dfe153afb1">9bbb9ac597d631108c41b9dfe153afd6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

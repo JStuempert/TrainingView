@@ -7,20 +7,40 @@
   "elementId" : "dashboard",
   "elementLabel" : "Dashboard",
   "propertyValues" : {
-    "dashboardSysId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "editMode" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
     "userInfo" : {
       "type" : "CONTEXT_BINDING",
       "binding" : {
         "address" : [ "user" ],
         "category" : "session"
       }
+    },
+    "hideHeader" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideShareButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "editMode" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "dashboardSysId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "hideCreateNewButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hideEditButton" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defaultDashboard" : {
+      "type" : "JSON_LITERAL",
+      "value" : "a34ce38e33063110dccd8dc43898f7b9"
     },
     "defaultDrilldowns" : {
       "type" : "JSON_LITERAL",
@@ -29,22 +49,6 @@
     "hideDashboardPicker" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "hideShareButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideEditButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideCreateNewButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "defaultDashboard" : {
-      "type" : "JSON_LITERAL",
-      "value" : "a34ce38e33063110dccd8dc43898f7b9"
     }
   },
   "eventMappings" : [ ],
@@ -59,8 +63,10 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
-  "styles" : { }
+  "items" : [ ],
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
@@ -97,7 +103,7 @@
   "valueType" : "string",
   "mandatory" : false,
   "defaultValue" : "",
-  "description" : null,
+  "description" : "",
   "readOnly" : true,
   "selectable" : false,
   "disabled" : false
@@ -109,7 +115,7 @@
   "valueType" : "string",
   "mandatory" : false,
   "defaultValue" : "",
-  "description" : null,
+  "description" : "",
   "readOnly" : true,
   "selectable" : false,
   "disabled" : false
@@ -124,14 +130,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-24 16:42:25</sys_created_on>
         <sys_id>df4ce38e1a063110ffdedbf6807fb7b0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_macroponent_df4ce38e1a063110ffdedbf6807fb7b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 16:42:25</sys_updated_on>
+        <sys_updated_on>2023-11-02 13:32:15</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=df4ce38e1a063110ffdedbf6807fb7b0"/>
 </record_update>

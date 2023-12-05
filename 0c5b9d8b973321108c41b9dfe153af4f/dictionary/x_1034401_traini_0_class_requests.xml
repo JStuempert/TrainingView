@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3013b39297b231108c41b9dfe153af08" extends="task" label="Class Requests" max_length="40" name="x_1034401_traini_0_class_requests" type="collection">
+        <element label="Class Title" max_length="40" name="class_title" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="string"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element label="Minimum Duration (Days)" max_length="40" name="minimum_duration_days" type="string"/>
+        <element label="Projected End Date" max_length="40" name="projected_end_date" type="string"/>
+        <element label="Projected Start Date" max_length="40" name="projected_start_date" type="string"/>
+        <element label="Scheduled Duration (Days)" max_length="40" name="scheduled_duration_days" type="string"/>
+    </element>
+</database>

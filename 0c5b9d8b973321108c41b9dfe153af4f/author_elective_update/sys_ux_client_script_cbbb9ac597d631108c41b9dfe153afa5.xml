@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
+        <macroponent display_value="List Default Admins">72bb5ac597d631108c41b9dfe153af11</macroponent>
+        <name>listSetPrefState</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const listDividerPosition = event.payload.dividerPosition;
+        const listPreference = api.state.listRatioPreference;
+        
+        api.setState('listDividerPosition', listDividerPosition);
+
+        api.data.setListPreference.execute({
+            'name': listPreference,
+            'value': listDividerPosition
+        });    
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:09</sys_created_on>
+        <sys_id>cbbb9ac597d631108c41b9dfe153afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listSetPrefState</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_client_script_cbbb9ac597d631108c41b9dfe153afa5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_client_script_cbbb9ac597d631108c41b9dfe153afa5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes&gt;e75113c0c3302010de10a0f89d40dd0e&lt;/includes&gt;&lt;macroponent display_value="List Default Admins"&gt;72bb5ac597d631108c41b9dfe153af11&lt;/macroponent&gt;&lt;name&gt;listSetPrefState&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    if (event.payload.interaction === "USER_ACTION") {
+        const listDividerPosition = event.payload.dividerPosition;
+        const listPreference = api.state.listRatioPreference;
+        
+        api.setState('listDividerPosition', listDividerPosition);
+
+        api.data.setListPreference.execute({
+            'name': listPreference,
+            'value': listDividerPosition
+        });    
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-02 18:32:09&lt;/sys_created_on&gt;&lt;sys_id&gt;cbbb9ac597d631108c41b9dfe153afa5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;listSetPrefState&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_cbbb9ac597d631108c41b9dfe153afa5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-02 18:32:09&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1459518429</payload_hash>
+        <record_name>listSetPrefState</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:10</sys_created_on>
+        <sys_id>d7bb9ac597d631108c41b9dfe153affd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b914e9d8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:10</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>1fbb9ac55ed63110e799bb9bfb695afc</update_guid>
+        <update_guid_history>1fbb9ac55ed63110e799bb9bfb695afc:-1459518429,13bb9ac5b6d631103150779b3248b0f1:1331836089,cfbb9ac588d63110fc54620c0f1a6ead:-1459518429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>46bfd24c3a284cadac536b8d3f6d7e21</sys_id>
+        <sys_metadata>cbbb9ac597d631108c41b9dfe153afa5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>listSetPrefState</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_cbbb9ac597d631108c41b9dfe153afa5</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_cbbb9ac597d631108c41b9dfe153afa5">d7bb9ac597d631108c41b9dfe153affd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

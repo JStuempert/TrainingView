@@ -241,7 +241,7 @@
         <name>List Default</name>
         <order>0</order>
         <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
-        <required_translations>[]</required_translations>
+        <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
         <screen_type display_value="List">134ce38ece063110829b16fd603ca8b3</screen_type>
@@ -251,7 +251,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d74ce38e6a063110d4c74c51bca456ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>List Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -259,7 +259,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_screen_d74ce38e6a063110d4c74c51bca456ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 16:42:24</sys_updated_on>
+        <sys_updated_on>2023-11-20 14:50:12</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=d74ce38e6a063110d4c74c51bca456ac"/>
 </record_update>

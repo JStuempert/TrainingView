@@ -2,8 +2,10 @@
     <sys_ux_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Student Records">e85c678e970631108c41b9dfe153af0f</category>
-        <columns>class_id,class_title,full_name,instructor,status</columns>
-        <condition/>
+        <columns/>
+        <condition table="x_1034401_traini_0_student_records">status=Registered^EQ<item display_value="Registered" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Registered"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
         <configuration display_value="TrainingView_menu_config">685c278e970631108c41b9dfe153afde</configuration>
         <group_by_column/>
         <groups/>
@@ -51,7 +53,7 @@
         <highlight_content_pattern/>
         <list_attributes/>
         <max_characters>4000</max_characters>
-        <order>50</order>
+        <order>100</order>
         <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
         <roles/>
         <sys_class_name>sys_ux_list</sys_class_name>
@@ -60,18 +62,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a85c678e970631108c41b9dfe153af11</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Registered</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_list_a85c678e970631108c41b9dfe153af11</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 16:42:28</sys_updated_on>
+        <sys_updated_on>2023-11-29 19:21:05</sys_updated_on>
         <table>x_1034401_traini_0_student_records</table>
-        <title>All</title>
-        <view/>
+        <title>Registered</title>
+        <view display_value="Default view" name="NULL">Default view</view>
         <word_wrap>false</word_wrap>
     </sys_ux_list>
 </record_update>

@@ -16,6 +16,8 @@ getProjectedEndDate.prototype = Object.extendsObject(global.AbstractAjaxProcesso
         var startDate = new GlideDateTime(startDateFormat);
         var runningDate = new GlideDateTime(startDate);
         runningDate.addDaysUTC(-1);
+		
+		
 
 
         if (daysRequired > 5) {
@@ -46,6 +48,11 @@ getProjectedEndDate.prototype = Object.extendsObject(global.AbstractAjaxProcesso
 
             }
 		}
+		
+		if (runningDate.getDayOfWeekUTC() == 6)
+			{
+				runningDate.addDaysUTC(2);
+			}
         return runningDate.getDate().toString();
 
 
@@ -57,13 +64,13 @@ getProjectedEndDate.prototype = Object.extendsObject(global.AbstractAjaxProcesso
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-26 19:19:21</sys_created_on>
         <sys_id>14e1a67a974671108c41b9dfe153af55</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>53</sys_mod_count>
         <sys_name>getProjectedEndDate</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_include_14e1a67a974671108c41b9dfe153af55</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-27 12:40:11</sys_updated_on>
+        <sys_updated_on>2023-11-29 21:32:07</sys_updated_on>
     </sys_script_include>
 </record_update>

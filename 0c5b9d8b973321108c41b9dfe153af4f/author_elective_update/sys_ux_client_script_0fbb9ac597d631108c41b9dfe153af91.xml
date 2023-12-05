@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="List Default Admins">72bb5ac597d631108c41b9dfe153af11</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &&
+          value.isActive != previousValue.isActive
+          && value.isActive
+          && api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen < 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &&
+            sysId !== "-1" &&
+            !api.context.props.screen.isActive &&
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:09</sys_created_on>
+        <sys_id>0fbb9ac597d631108c41b9dfe153af91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_client_script_0fbb9ac597d631108c41b9dfe153af91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:09</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ux_client_script_0fbb9ac597d631108c41b9dfe153af91</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="List Default Admins"&gt;72bb5ac597d631108c41b9dfe153af11&lt;/macroponent&gt;&lt;name&gt;Refresh List&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      if (name === 'screen' &amp;&amp;
+          value.isActive != previousValue.isActive
+          &amp;&amp; value.isActive
+          &amp;&amp; api.state.hasRecordChanges) {
+          api.setState('hasRecordChanges', false);
+          api.setState('listRefresh', { timestamp: Date.now(), background: true });
+      }
+      if (name === 'activityLogs' &amp;&amp; value &amp;&amp; value.size &gt; 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLen = map.activities.get('crud').length;
+        if (crudActivitiesLen &lt; 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLen - 1];
+        if (operationList.includes(operation) &amp;&amp;
+            sysId !== "-1" &amp;&amp;
+            !api.context.props.screen.isActive &amp;&amp;
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-02 18:32:09&lt;/sys_created_on&gt;&lt;sys_id&gt;0fbb9ac597d631108c41b9dfe153af91&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Refresh List&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0fbb9ac597d631108c41b9dfe153af91&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-02 18:32:09&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1603187093</payload_hash>
+        <record_name>Refresh List</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:10</sys_created_on>
+        <sys_id>57bb9ac597d631108c41b9dfe153afcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b914e9cec0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:10</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>9bbb9ac5d8d631109a8eed8d5e0697ce</update_guid>
+        <update_guid_history>9bbb9ac5d8d631109a8eed8d5e0697ce:1603187093,13bb9ac5a8d6311025780e4679049d61:-364859667,07bb9ac5cfd63110e99455cfe02c6795:1603187093</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-02 18:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2ccf5968e37d4a54a9c969dca9f8d6a4</sys_id>
+        <sys_metadata>0fbb9ac597d631108c41b9dfe153af91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0fbb9ac597d631108c41b9dfe153af91</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0fbb9ac597d631108c41b9dfe153af91">57bb9ac597d631108c41b9dfe153afcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-02 18:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

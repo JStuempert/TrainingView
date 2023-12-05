@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Advanced Avionics Systems">c7af64b597be31108c41b9dfe153af81</sc_cat_item>
+        <sc_category display_value="Classes">c2cea87597be31108c41b9dfe153af52</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:12:15</sys_created_on>
+        <sys_id>46e07cf597be31108c41b9dfe153afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes.Advanced Avionics Systems</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sc_cat_item_category_46e07cf597be31108c41b9dfe153afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:12:15</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sc_cat_item_category_46e07cf597be31108c41b9dfe153afce</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Advanced Avionics Systems">c7af64b597be31108c41b9dfe153af81</sc_cat_item><sc_category display_value="Classes">c2cea87597be31108c41b9dfe153af52</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-29 15:12:15</sys_created_on><sys_id>46e07cf597be31108c41b9dfe153afce</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Classes.Advanced Avionics Systems</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sc_cat_item_category_46e07cf597be31108c41b9dfe153afce</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-29 15:12:15</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-286874675</payload_hash>
+        <record_name>Classes.Advanced Avionics Systems</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-29 15:12:15</sys_created_on>
+        <sys_id>42e07cf597be31108c41b9dfe153afd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c1ba349db0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-29 15:12:15</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>46e07cf533be31108a2667ff06991ed1</update_guid>
+        <update_guid_history>46e07cf533be31108a2667ff06991ed1:-286874675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Classes.Advanced Avionics Systems">31624c6297f231108c41b9dfe153afd1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-01 19:44:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>52403aa9c2504d8ca674bd1df3103651</sys_id>
+        <sys_metadata>46e07cf597be31108c41b9dfe153afce</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes.Advanced Avionics Systems</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_46e07cf597be31108c41b9dfe153afce</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_46e07cf597be31108c41b9dfe153afce">42e07cf597be31108c41b9dfe153afd2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-01 19:44:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

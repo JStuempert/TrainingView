@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Learning Event">e716d706973ab1108c41b9dfe153afcd</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Learning Events</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1034401_traini_0_learning_event</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1034401_traini_0.learning_event_user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 21:52:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb16d706973ab1108c41b9dfe153aff6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Events</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_app_module_eb16d706973ab1108c41b9dfe153aff6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 21:52:32</sys_updated_on>
+        <timeline_page/>
+        <title>Learning Events</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_app_module_eb16d706973ab1108c41b9dfe153aff6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Learning Event">e716d706973ab1108c41b9dfe153afcd</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Learning Events</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1034401_traini_0_learning_event</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_1034401_traini_0.learning_event_user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-11-30 21:52:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eb16d706973ab1108c41b9dfe153aff6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Learning Events</sys_name><sys_overrides/><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_app_module_eb16d706973ab1108c41b9dfe153aff6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-11-30 21:52:32</sys_updated_on><timeline_page/><title>Learning Events</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1615023863</payload_hash>
+        <record_name>Learning Events</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 21:52:32</sys_created_on>
+        <sys_id>e316d706973ab1108c41b9dfe153affa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c22381ff20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 21:52:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e716d706973ab110ad9551f2400078f9</update_guid>
+        <update_guid_history>e716d706973ab110ad9551f2400078f9:1615023863</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Learning Events">fca7d386973ab1108c41b9dfe153afea</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-30 21:59:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>393a2cbb4d7a4e7b94cae612616a24d9</sys_id>
+        <sys_metadata>eb16d706973ab1108c41b9dfe153aff6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Learning Events</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_app_module_eb16d706973ab1108c41b9dfe153aff6</sys_update_name>
+        <sys_update_version display_value="sys_app_module_eb16d706973ab1108c41b9dfe153aff6">e316d706973ab1108c41b9dfe153affa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-30 21:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

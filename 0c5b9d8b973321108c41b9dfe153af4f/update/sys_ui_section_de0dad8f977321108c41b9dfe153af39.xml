@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>1e0dad8f977321108c41b9dfe153af3c</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>ea515a3d973671108c41b9dfe153affc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>full_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>9e0dad8f977321108c41b9dfe153af3c</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>e2515a3d973671108c41b9dfe153affd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,83 +32,55 @@
             <element>class_title</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>120dad8f977321108c41b9dfe153af3d</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>e6515a3d973671108c41b9dfe153affd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>class_id</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>920dad8f977321108c41b9dfe153af3d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>160dad8f977321108c41b9dfe153af3d</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>ea515a3d973671108c41b9dfe153affd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>status</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>960dad8f977321108c41b9dfe153af3d</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>ee515a3d973671108c41b9dfe153affd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>instructor</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>1a0dad8f977321108c41b9dfe153af3d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-07-07 13:39:00</sys_created_on>
-            <sys_id>9a0dad8f977321108c41b9dfe153af3d</sys_id>
+            <sys_created_on>2023-11-29 22:13:37</sys_created_on>
+            <sys_id>e2515a3d973671108c41b9dfe153affe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1034401_traini_0_student_records" sys_domain="global" view="Default view">de0dad8f977321108c41b9dfe153af39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-07-07 13:39:00</sys_updated_on>
+            <sys_updated_on>2023-11-29 22:13:37</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
