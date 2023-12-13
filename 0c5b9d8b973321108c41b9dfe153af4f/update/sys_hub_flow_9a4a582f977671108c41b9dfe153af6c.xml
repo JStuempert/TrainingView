@@ -10,7 +10,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>class_administration</internal_name>
-        <label_cache>[{"name":"Created_1.current.class_title.title","label":"Trigger - Record Created➛Class Records Record➛Class Title➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1034401_traini_0_classes","column_name":"title"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.first_name","label":"1 - Create Record➛Class Requests Record➛Instructor➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.email","label":"1 - Create Record➛Class Requests Record➛Instructor➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cc501c19-51d3-4c54-9f3d-ce3ead443c96.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record","label":"1 - Create Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.end_date","label":"Trigger - Record Created➛Class Records Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"end_date"},{"name":"Created_1.current.start_date","label":"Trigger - Record Created➛Class Records Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"start_date"},{"name":"Created_1.current.instructor.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_instructor_qualifications","column_name":"instructor"},{"name":"Created_1.current.class_title","label":"Trigger - Record Created➛Class Records Record➛Class Title","reference":"x_1034401_traini_0_classes","reference_display":"Classes","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"class_title"},{"name":"{{static.99aa906f977671108c41b9dfe153af2c}}","label":"Superintendent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Class Records Record","reference":"x_1034401_traini_0_class_records","reference_display":"Class Records","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"23778784-a787-484b-982d-2084bbe02224.__action_status__","label":"9 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Class Records Record","reference":"x_1034401_traini_0_class_records","reference_display":"Class Records","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.99aa906f977671108c41b9dfe153af2c}}","label":"Superintendent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current.class_title","label":"Trigger - Record Created➛Class Records Record➛Class Title","reference":"x_1034401_traini_0_classes","reference_display":"Classes","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"class_title"},{"name":"Created_1.current.instructor.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_instructor_qualifications","column_name":"instructor"},{"name":"Created_1.current.start_date","label":"Trigger - Record Created➛Class Records Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"start_date"},{"name":"Created_1.current.end_date","label":"Trigger - Record Created➛Class Records Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"end_date"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record","label":"1 - Create Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc501c19-51d3-4c54-9f3d-ce3ead443c96.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.email","label":"1 - Create Record➛Class Requests Record➛Instructor➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.first_name","label":"1 - Create Record➛Class Requests Record➛Instructor➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.class_title.title","label":"Trigger - Record Created➛Class Records Record➛Class Title➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1034401_traini_0_classes","column_name":"title"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor","label":"1 - Create Record➛Class Requests Record➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_requests","column_name":"instructor"},{"name":"Created_1.current.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor","reference":"x_1034401_traini_0_instructor_qualifications","reference_display":"Instructor Qualifications","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"instructor"},{"name":"51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record","label":"3 - Update Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23778784-a787-484b-982d-2084bbe02224.Record","label":"9 - Create Task➛Class Tasks Record","reference":"x_1034401_traini_0_class_tasks","reference_display":"Class Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>a9b1ec6797b671108c41b9dfe153afd2</master_snapshot>
         <name>Class Administration</name>
         <natlang/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a4a582f977671108c41b9dfe153af6c</sys_id>
-        <sys_mod_count>24</sys_mod_count>
+        <sys_mod_count>79</sys_mod_count>
         <sys_name>Class Administration</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_hub_flow_9a4a582f977671108c41b9dfe153af6c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=9a4a582f977671108c41b9dfe153af6c"/>
@@ -74,15 +74,15 @@
         <identifier>9a4a582f977671108c41b9dfe153af6c</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-05 01:54:04</sys_created_on>
-        <sys_id>30c3fc6f97f671108c41b9dfe153afb4</sys_id>
+        <sys_created_on>2023-12-12 04:46:43</sys_created_on>
+        <sys_id>316e11f9970f31108c41b9dfe153af8e</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:04</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <trigger display_value="">0d3f4347977231108c41b9dfe153af3b</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN30c3fc6f97f671108c41b9dfe153afb4"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN400cd8af977671108c41b9dfe153aff7"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN316e11f9970f31108c41b9dfe153af8e"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT INd40ff031978b31108c41b9dfe153af94"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
@@ -90,67 +90,90 @@
         <name>Created</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-05 00:10:16</sys_created_on>
-        <sys_id>400cd8af977671108c41b9dfe153aff7</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>d40ff031978b31108c41b9dfe153af94</sys_id>
+        <sys_mod_count>55</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=400cd8af977671108c41b9dfe153aff7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d40ff031978b31108c41b9dfe153af94"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>400cd8af977671108c41b9dfe153aff7</document_key>
+        <document_key>d40ff031978b31108c41b9dfe153af94</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-05 00:10:16</sys_created_on>
-        <sys_id>800cd8af977671108c41b9dfe153aff8</sys_id>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>180ff031978b31108c41b9dfe153af95</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:10:16</sys_updated_on>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
-        <document_key>400cd8af977671108c41b9dfe153aff7</document_key>
+        <document_key>d40ff031978b31108c41b9dfe153af94</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-05 00:10:16</sys_created_on>
-        <sys_id>880cd8af977671108c41b9dfe153aff8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>500ff031978b31108c41b9dfe153af96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:35:06</sys_updated_on>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
         <value>x_1034401_traini_0_class_records</value>
         <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
     </sys_variable_value>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN4467646f97b671108c41b9dfe153afea,8c67646f97b671108c41b9dfe153afe9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN083189b1978b31108c41b9dfe153afb7,4467646f97b671108c41b9dfe153afea,85fc5139970f31108c41b9dfe153af1b,8c67646f97b671108c41b9dfe153afe9,940ff031978b31108c41b9dfe153afc7"/>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
         <always_show>true</always_show>
         <ancestor_array_position>0</ancestor_array_position>
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>7</component_indexes>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <label>Approval</label>
+        <order>1</order>
+        <stage_id>c4b3f654-4434-416c-862f-67e9a9edf6dc</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:39:04</sys_created_on>
+        <sys_id>083189b1978b31108c41b9dfe153afb7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:01:04</sys_updated_on>
+        <type>standard</type>
+        <value>Approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
         <label>Sign Instructor/Student Agreement</label>
-        <order>1</order>
+        <order>3</order>
         <stage_id>03ec3532-c796-44c5-ae1b-329e9f0b8888</stage_id>
         <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>4467646f97b671108c41b9dfe153afea</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:07</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:23</sys_updated_on>
         <type>standard</type>
         <value>Sign Instructor/Student Agreement</value>
     </sys_hub_flow_stage>
@@ -160,22 +183,68 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>6</component_indexes>
+        <component_indexes>8</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <label>Pre-Class Administrative Tasks</label>
+        <order>4</order>
+        <stage_id>e4e5472c-9d30-4ca7-b443-172aed0d421f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:40:23</sys_created_on>
+        <sys_id>85fc5139970f31108c41b9dfe153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:40:23</sys_updated_on>
+        <type>standard</type>
+        <value>Pre-Class Administrative Tasks</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
         <label>Verify Students</label>
-        <order>0</order>
+        <order>2</order>
         <stage_id>91171cde-d704-45c4-9f05-a4514c9f4b46</stage_id>
         <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>8c67646f97b671108c41b9dfe153afe9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:07</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:23</sys_updated_on>
         <type>standard</type>
         <value>Verify Students</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>0</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <label>Assign students to course</label>
+        <order>0</order>
+        <stage_id>91aaf7af-4319-4ccf-8d94-66788c389886</stage_id>
+        <states>{"pending":"Not Yet Requested","in_progress":"Waiting for Approval","skipped":"Skipped","complete":"Approved","error":"Rejected"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>940ff031978b31108c41b9dfe153afc7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:47:50</sys_updated_on>
+        <type>standard</type>
+        <value>Assign students to course</value>
     </sys_hub_flow_stage>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN1e4a582f977671108c41b9dfe153af6e"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -254,14 +323,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:10:16</sys_created_on>
         <sys_id>8c0cd8af977671108c41b9dfe153afd4</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -337,14 +406,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:10:16</sys_created_on>
         <sys_id>c40cd8af977671108c41b9dfe153aff2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -359,7 +428,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=9a4a582f977671108c41b9dfe153af6c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a4a582f977671108c41b9dfe153af6c"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN04b1ac6797b671108c41b9dfe153af3e,08b1ac6797b671108c41b9dfe153af26,08b1ac6797b671108c41b9dfe153af2f,700928ef97b671108c41b9dfe153af53,8867646f97b671108c41b9dfe153afe5,8c67646f97b671108c41b9dfe153afdd,f3a1ac6797b671108c41b9dfe153af1e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN04b1ac6797b671108c41b9dfe153af3e,08b1ac6797b671108c41b9dfe153af26,08b1ac6797b671108c41b9dfe153af2f,100ff031978b31108c41b9dfe153af9f,500ff031978b31108c41b9dfe153afa6,700928ef97b671108c41b9dfe153af53,8867646f97b671108c41b9dfe153afe5,8c67646f97b671108c41b9dfe153afdd,b4dd1d79970f31108c41b9dfe153afad,f3a1ac6797b671108c41b9dfe153af1e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -368,16 +437,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:07</sys_created_on>
         <sys_id>04b1ac6797b671108c41b9dfe153af3e</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>192</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>0bdcf781-651b-4bff-87f1-a1c1e6141a1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=04b1ac6797b671108c41b9dfe153af3e"/>
@@ -459,16 +528,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>2</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:06</sys_created_on>
         <sys_id>08b1ac6797b671108c41b9dfe153af26</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>192</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>cc501c19-51d3-4c54-9f3d-ce3ead443c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08b1ac6797b671108c41b9dfe153af26"/>
@@ -611,16 +680,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>3</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:06</sys_created_on>
         <sys_id>08b1ac6797b671108c41b9dfe153af2f</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>192</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>ee840ea6-f0b0-4581-b31f-2088489d55c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=08b1ac6797b671108c41b9dfe153af2f"/>
@@ -694,21 +763,211 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>100ff031978b31108c41b9dfe153af9f</sys_id>
+        <sys_mod_count>138</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
+        <ui_id>653a59c7-e44f-4ab5-b369-564d602a9d04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=100ff031978b31108c41b9dfe153af9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>100ff031978b31108c41b9dfe153af9f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>5c0ff031978b31108c41b9dfe153afa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:47:23</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>100ff031978b31108c41b9dfe153af9f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>980ff031978b31108c41b9dfe153afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>100ff031978b31108c41b9dfe153af9f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>d40ff031978b31108c41b9dfe153afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=100ff031978b31108c41b9dfe153af9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>100ff031978b31108c41b9dfe153af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>540ff031978b31108c41b9dfe153afa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:47:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>assignment_group={"display":"Schedulers","value":"00de4b07977231108c41b9dfe153af73","sys_id":"00de4b07977231108c41b9dfe153af73"}^short_description=Assign students to course^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>100ff031978b31108c41b9dfe153af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>900ff031978b31108c41b9dfe153afa1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>100ff031978b31108c41b9dfe153af9f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>d80ff031978b31108c41b9dfe153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=100ff031978b31108c41b9dfe153af9f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=100ff031978b31108c41b9dfe153af9f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>6</order>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>500ff031978b31108c41b9dfe153afa6</sys_id>
+        <sys_mod_count>138</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
+        <ui_id>51c73788-e75a-49eb-9c8e-6d67ed7bc9b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=500ff031978b31108c41b9dfe153afa6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>500ff031978b31108c41b9dfe153afa6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>100ff031978b31108c41b9dfe153afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <value>approval=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>500ff031978b31108c41b9dfe153afa6</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>d00ff031978b31108c41b9dfe153afa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <value>x_1034401_traini_0_class_requests</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=500ff031978b31108c41b9dfe153afa6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>500ff031978b31108c41b9dfe153afa6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>9c0ff031978b31108c41b9dfe153afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{bec43715-368c-4262-9e2d-cbe0784e9628.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>500ff031978b31108c41b9dfe153afa6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>180ff031978b31108c41b9dfe153afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>500ff031978b31108c41b9dfe153afa6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>d80ff031978b31108c41b9dfe153afa7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=500ff031978b31108c41b9dfe153afa6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=500ff031978b31108c41b9dfe153afa6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <order>8</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:07:07</sys_created_on>
         <sys_id>700928ef97b671108c41b9dfe153af53</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>160</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>893cc4f5-efc2-466f-9686-6dcae45b80b6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=700928ef97b671108c41b9dfe153af53"/>
@@ -757,9 +1016,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:07:07</sys_created_on>
         <sys_id>f00928ef97b671108c41b9dfe153af55</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:07</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:27:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>assignment_group=^assigned_to={{Created_1.current.instructor.instructor}}</value>
     </sys_element_mapping>
@@ -773,16 +1032,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>8</order>
+        <order>10</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>8867646f97b671108c41b9dfe153afe5</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>168</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>661bbd62-85f9-4580-a3ae-b05307e06fb0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8867646f97b671108c41b9dfe153afe5"/>
@@ -794,10 +1053,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>8467646f97b671108c41b9dfe153afe7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:59:58</sys_updated_on>
-        <value>x_1034401_traini_0_class_request_items</value>
+        <sys_updated_on>2023-12-12 03:45:06</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
         <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -808,9 +1067,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>c067646f97b671108c41b9dfe153afe7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:53:54</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:22</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
@@ -821,11 +1080,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>4067646f97b671108c41b9dfe153afe7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:08:22</sys_updated_on>
+        <sys_updated_on>2023-12-12 03:57:17</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>short_description=Sign Instructor/Student Agreement^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}^state=1^assigned_to={{Created_1.current.instructor.instructor}}</value>
+        <value>assigned_to={{Created_1.current.instructor.instructor}}^state=1^short_description=Sign instructor/student agreement^parent={{51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -861,16 +1120,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
-        <order>7</order>
+        <order>9</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>8c67646f97b671108c41b9dfe153afdd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>168</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>23778784-a787-484b-982d-2084bbe02224</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8c67646f97b671108c41b9dfe153afdd"/>
@@ -882,10 +1141,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>0c67646f97b671108c41b9dfe153afe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:59:58</sys_updated_on>
-        <value>x_1034401_traini_0_class_request_items</value>
+        <sys_updated_on>2023-12-12 03:45:06</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
         <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -896,9 +1155,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>4467646f97b671108c41b9dfe153afe0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:53:54</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:26</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
@@ -909,11 +1168,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:59:58</sys_created_on>
         <sys_id>c067646f97b671108c41b9dfe153afe0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:08:22</sys_updated_on>
+        <sys_updated_on>2023-12-12 03:52:20</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>short_description=Verify Students^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}^state=1^assigned_to={{Created_1.current.instructor.instructor}}</value>
+        <value>assigned_to={{bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor}}^state=1^short_description=Verify student roster^parent={{51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -939,8 +1198,109 @@
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=8c67646f97b671108c41b9dfe153afdd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8c67646f97b671108c41b9dfe153afdd^sys_idNOT INcdfc5139970f31108c41b9dfe153af14"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>wait</input_name>
+        <instance>8c67646f97b671108c41b9dfe153afdd</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"wait":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:40:22</sys_created_on>
+        <sys_id>cdfc5139970f31108c41b9dfe153af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:40:22</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8c67646f97b671108c41b9dfe153afdd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">9a4a582f977671108c41b9dfe153af6c</flow>
+        <order>11</order>
+        <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>b4dd1d79970f31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
+        <ui_id>ae2f3701-a984-4c89-9d7b-d551c0983a2a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b4dd1d79970f31108c41b9dfe153afad"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4dd1d79970f31108c41b9dfe153afad</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>78dd1d79970f31108c41b9dfe153afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:11</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b4dd1d79970f31108c41b9dfe153afad</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>b0dd1d79970f31108c41b9dfe153afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:11</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b4dd1d79970f31108c41b9dfe153afad"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b4dd1d79970f31108c41b9dfe153afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>7cdd1d79970f31108c41b9dfe153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b4dd1d79970f31108c41b9dfe153afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>b4dd1d79970f31108c41b9dfe153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{23778784-a787-484b-982d-2084bbe02224.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b4dd1d79970f31108c41b9dfe153afad</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:11</sys_created_on>
+        <sys_id>30dd1d79970f31108c41b9dfe153afb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b4dd1d79970f31108c41b9dfe153afad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4dd1d79970f31108c41b9dfe153afad"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -955,10 +1315,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:06</sys_created_on>
         <sys_id>f3a1ac6797b671108c41b9dfe153af1e</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>192</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:33</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:48:05</sys_updated_on>
         <ui_id>bec43715-368c-4262-9e2d-cbe0784e9628</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f3a1ac6797b671108c41b9dfe153af1e"/>
@@ -995,11 +1355,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:06</sys_created_on>
         <sys_id>fba1ac6797b671108c41b9dfe153af20</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:51:13</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:32:42</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>approval=requested^class_title={{Created_1.current.class_title}}^instructor={{Created_1.current.instructor.instructor}}^projected_start_date={{Created_1.current.start_date}}^projected_end_date={{Created_1.current.end_date}}^assignment_group={"display":"Superintendent","value":"99aa906f977671108c41b9dfe153af2c","sys_id":"99aa906f977671108c41b9dfe153af2c"}</value>
+        <value>approval=not requested^class_title={{Created_1.current.class_title}}^instructor={{Created_1.current.instructor.instructor}}^projected_start_date={{Created_1.current.start_date}}^projected_end_date={{Created_1.current.end_date}}^assignment_group={"display":"Superintendent","value":"99aa906f977671108c41b9dfe153af2c","sys_id":"99aa906f977671108c41b9dfe153af2c"}^u_parent_class_record={{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f3a1ac6797b671108c41b9dfe153af1e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f3a1ac6797b671108c41b9dfe153af1e"/>
@@ -1019,7 +1379,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1027,10 +1387,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:07</sys_created_on>
         <sys_id>8cb1ac6797b671108c41b9dfe153af33</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>77</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1077,7 +1437,7 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=8cb1ac6797b671108c41b9dfe153af33"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8cb1ac6797b671108c41b9dfe153af33"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN0cb1ac6797b671108c41b9dfe153af4b,40b1ac6797b671108c41b9dfe153af4b,48b1ac6797b671108c41b9dfe153af4b,846560eb97b671108c41b9dfe153afe3,8ab460ab97b671108c41b9dfe153af25,ccb1ac6797b671108c41b9dfe153af4b"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9a4a582f977671108c41b9dfe153af6c^sys_idNOT IN0cb1ac6797b671108c41b9dfe153af4b,40b1ac6797b671108c41b9dfe153af4b,48b1ac6797b671108c41b9dfe153af4b,540ff031978b31108c41b9dfe153afc6,846560eb97b671108c41b9dfe153afe3,8ab460ab97b671108c41b9dfe153af25,900ff031978b31108c41b9dfe153afc6,980ff031978b31108c41b9dfe153afc5,ccb1ac6797b671108c41b9dfe153af4b"/>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
         <extra_info/>
@@ -1133,6 +1493,23 @@
         <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created_1.current.end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>540ff031978b31108c41b9dfe153afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b7c14fbf-d25b-4e23-9e72-c4d7d1cea8c8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created_1.current.class_title.title}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -1162,6 +1539,40 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>d808c1e2-3b7a-4764-9f11-1761c000074f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>900ff031978b31108c41b9dfe153afc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c355670e-c27d-4a81-b94f-abc01c656055</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.class_title.title}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:32</sys_created_on>
+        <sys_id>980ff031978b31108c41b9dfe153afc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:32</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>90ff4b65-158d-4eaa-9db5-8edd0108894c</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>9a4a582f977671108c41b9dfe153af6c</attached_to>
@@ -1242,7 +1653,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>class_administration</internal_name>
-        <label_cache>[{"name":"Created_1.current.class_title.title","label":"Trigger - Record Created➛Class Records Record➛Class Title➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1034401_traini_0_classes","column_name":"title"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.first_name","label":"1 - Create Record➛Class Requests Record➛Instructor➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.email","label":"1 - Create Record➛Class Requests Record➛Instructor➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"cc501c19-51d3-4c54-9f3d-ce3ead443c96.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record","label":"1 - Create Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.end_date","label":"Trigger - Record Created➛Class Records Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"end_date"},{"name":"Created_1.current.start_date","label":"Trigger - Record Created➛Class Records Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"start_date"},{"name":"Created_1.current.instructor.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_instructor_qualifications","column_name":"instructor"},{"name":"Created_1.current.class_title","label":"Trigger - Record Created➛Class Records Record➛Class Title","reference":"x_1034401_traini_0_classes","reference_display":"Classes","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"class_title"},{"name":"{{static.99aa906f977671108c41b9dfe153af2c}}","label":"Superintendent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"Trigger - Record Created➛Class Records Record","reference":"x_1034401_traini_0_class_records","reference_display":"Class Records","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"23778784-a787-484b-982d-2084bbe02224.__action_status__","label":"9 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Class Records Record","reference":"x_1034401_traini_0_class_records","reference_display":"Class Records","type":"reference","base_type":"reference","attributes":{}},{"name":"{{static.99aa906f977671108c41b9dfe153af2c}}","label":"Superintendent","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Created_1.current.class_title","label":"Trigger - Record Created➛Class Records Record➛Class Title","reference":"x_1034401_traini_0_classes","reference_display":"Classes","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"class_title"},{"name":"Created_1.current.instructor.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_instructor_qualifications","column_name":"instructor"},{"name":"Created_1.current.start_date","label":"Trigger - Record Created➛Class Records Record➛Start Date","reference":"","reference_display":"Start Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"start_date"},{"name":"Created_1.current.end_date","label":"Trigger - Record Created➛Class Records Record➛End Date","reference":"","reference_display":"End Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1034401_traini_0_class_records","column_name":"end_date"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record","label":"1 - Create Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cc501c19-51d3-4c54-9f3d-ce3ead443c96.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.email","label":"1 - Create Record➛Class Requests Record➛Instructor➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor.first_name","label":"1 - Create Record➛Class Requests Record➛Instructor➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created_1.current.class_title.title","label":"Trigger - Record Created➛Class Records Record➛Class Title➛Title","reference":"","reference_display":"Title","type":"string","base_type":"string","parent_table_name":"x_1034401_traini_0_classes","column_name":"title"},{"name":"bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor","label":"1 - Create Record➛Class Requests Record➛Instructor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_requests","column_name":"instructor"},{"name":"Created_1.current.instructor","label":"Trigger - Record Created➛Class Records Record➛Instructor","reference":"x_1034401_traini_0_instructor_qualifications","reference_display":"Instructor Qualifications","type":"reference","base_type":"reference","parent_table_name":"x_1034401_traini_0_class_records","column_name":"instructor"},{"name":"51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record","label":"3 - Update Record➛Class Requests Record","reference":"x_1034401_traini_0_class_requests","reference_display":"Class Requests","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"23778784-a787-484b-982d-2084bbe02224.Record","label":"9 - Create Task➛Class Tasks Record","reference":"x_1034401_traini_0_class_tasks","reference_display":"Class Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Class Administration</name>
         <natlang/>
@@ -1259,7 +1670,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a9b1ec6797b671108c41b9dfe153afd2</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1267,7 +1678,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a9b1ec6797b671108c41b9dfe153afd2"/>
@@ -1282,10 +1693,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>79b120a797b671108c41b9dfe153af40</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>74</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:05</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1320,27 +1731,73 @@
         <value>^EQ</value>
         <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
     </sys_variable_value>
-    <sys_hub_flow_stage action="delete_multiple" query="flow=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN5a67286f97b671108c41b9dfe153af7c,d667286f97b671108c41b9dfe153af7c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN17fcd139970f31108c41b9dfe153afe0,2dd1cdf1978b31108c41b9dfe153af6b,5a67286f97b671108c41b9dfe153af7c,c30fb431978b31108c41b9dfe153afd3,d667286f97b671108c41b9dfe153af7c"/>
     <sys_hub_flow_stage action="INSERT_OR_UPDATE">
         <always_show>true</always_show>
         <ancestor_array_position>0</ancestor_array_position>
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>6</component_indexes>
+        <component_indexes>8</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <label>Pre-Class Administrative Tasks</label>
+        <order>4</order>
+        <stage_id>e4e5472c-9d30-4ca7-b443-172aed0d421f</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:40:32</sys_created_on>
+        <sys_id>17fcd139970f31108c41b9dfe153afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:40:32</sys_updated_on>
+        <type>standard</type>
+        <value>Pre-Class Administrative Tasks</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>3</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <label>Approval</label>
+        <order>1</order>
+        <stage_id>c4b3f654-4434-416c-862f-67e9a9edf6dc</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:41:54</sys_created_on>
+        <sys_id>2dd1cdf1978b31108c41b9dfe153af6b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:01:13</sys_updated_on>
+        <type>standard</type>
+        <value>Approval</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
         <label>Verify Students</label>
-        <order>0</order>
+        <order>2</order>
         <stage_id>91171cde-d704-45c4-9f05-a4514c9f4b46</stage_id>
         <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>5a67286f97b671108c41b9dfe153af7c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:16</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:32</sys_updated_on>
         <type>standard</type>
         <value>Verify Students</value>
     </sys_hub_flow_stage>
@@ -1350,20 +1807,43 @@
         <ancestor_component_id/>
         <ancestor_stage_id/>
         <ancestral_if_else_logic/>
-        <component_indexes>7</component_indexes>
+        <component_indexes>0</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <label>Assign students to course</label>
+        <order>0</order>
+        <stage_id>91aaf7af-4319-4ccf-8d94-66788c389886</stage_id>
+        <states>{"pending":"Not Yet Requested","in_progress":"Waiting for Approval","skipped":"Skipped","complete":"Approved","error":"Rejected"}</states>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:43</sys_created_on>
+        <sys_id>c30fb431978b31108c41b9dfe153afd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:47:59</sys_updated_on>
+        <type>standard</type>
+        <value>Assign students to course</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
         <duration>1970-01-01 00:00:00</duration>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
         <label>Sign Instructor/Student Agreement</label>
-        <order>1</order>
+        <order>3</order>
         <stage_id>03ec3532-c796-44c5-ae1b-329e9f0b8888</stage_id>
         <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>d667286f97b671108c41b9dfe153af7c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:16</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:32</sys_updated_on>
         <type>standard</type>
         <value>Sign Instructor/Student Agreement</value>
     </sys_hub_flow_stage>
@@ -1444,14 +1924,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>61b1ec6797b671108c41b9dfe153afd5</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1527,14 +2007,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>61b1ec6797b671108c41b9dfe153affe</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1549,7 +2029,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=a9b1ec6797b671108c41b9dfe153afd2"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a9b1ec6797b671108c41b9dfe153afd2"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN29b120a797b671108c41b9dfe153af26,29b120a797b671108c41b9dfe153af31,5267286f97b671108c41b9dfe153af74,6db120a797b671108c41b9dfe153af12,d667286f97b671108c41b9dfe153af6d,e9b120a797b671108c41b9dfe153af1b,fe09e8ef97b671108c41b9dfe153af22"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN29b120a797b671108c41b9dfe153af26,29b120a797b671108c41b9dfe153af31,320fb431978b31108c41b9dfe153afac,3e0fb431978b31108c41b9dfe153afb3,5267286f97b671108c41b9dfe153af74,6db120a797b671108c41b9dfe153af12,8fdddd79970f31108c41b9dfe153afd4,d667286f97b671108c41b9dfe153af6d,e9b120a797b671108c41b9dfe153af1b,fe09e8ef97b671108c41b9dfe153af22"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1558,16 +2038,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>3</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>29b120a797b671108c41b9dfe153af26</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>ee840ea6-f0b0-4581-b31f-2088489d55c7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29b120a797b671108c41b9dfe153af26"/>
@@ -1646,16 +2126,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>5</order>
+        <order>7</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>29b120a797b671108c41b9dfe153af31</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>0bdcf781-651b-4bff-87f1-a1c1e6141a1c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=29b120a797b671108c41b9dfe153af31"/>
@@ -1737,16 +2217,206 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>8</order>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>320fb431978b31108c41b9dfe153afac</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
+        <ui_id>653a59c7-e44f-4ab5-b369-564d602a9d04</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=320fb431978b31108c41b9dfe153afac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>320fb431978b31108c41b9dfe153afac</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>3e0fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>320fb431978b31108c41b9dfe153afac</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>7a0fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>320fb431978b31108c41b9dfe153afac</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>fe0fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:47:32</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=320fb431978b31108c41b9dfe153afac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>320fb431978b31108c41b9dfe153afac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>f60fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:47:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>assignment_group={"display":"Schedulers","value":"00de4b07977231108c41b9dfe153af73","sys_id":"00de4b07977231108c41b9dfe153af73"}^short_description=Assign students to course^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>320fb431978b31108c41b9dfe153afac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>360fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>320fb431978b31108c41b9dfe153afac</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>720fb431978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=320fb431978b31108c41b9dfe153afac"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=320fb431978b31108c41b9dfe153afac"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>3e0fb431978b31108c41b9dfe153afb3</sys_id>
+        <sys_mod_count>72</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
+        <ui_id>51c73788-e75a-49eb-9c8e-6d67ed7bc9b1</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e0fb431978b31108c41b9dfe153afb3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e0fb431978b31108c41b9dfe153afb3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>3a0fb431978b31108c41b9dfe153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <value>x_1034401_traini_0_class_requests</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e0fb431978b31108c41b9dfe153afb3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>760fb431978b31108c41b9dfe153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <value>approval=requested</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3e0fb431978b31108c41b9dfe153afb3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3e0fb431978b31108c41b9dfe153afb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>f20fb431978b31108c41b9dfe153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{bec43715-368c-4262-9e2d-cbe0784e9628.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3e0fb431978b31108c41b9dfe153afb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>7e0fb431978b31108c41b9dfe153afb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3e0fb431978b31108c41b9dfe153afb3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:42</sys_created_on>
+        <sys_id>320fb431978b31108c41b9dfe153afb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3e0fb431978b31108c41b9dfe153afb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e0fb431978b31108c41b9dfe153afb3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <order>10</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>5267286f97b671108c41b9dfe153af74</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>661bbd62-85f9-4580-a3ae-b05307e06fb0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5267286f97b671108c41b9dfe153af74"/>
@@ -1758,10 +2428,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>5e67286f97b671108c41b9dfe153af75</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:00:07</sys_updated_on>
-        <value>x_1034401_traini_0_class_request_items</value>
+        <sys_updated_on>2023-12-12 03:47:59</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
         <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1772,9 +2442,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>9a67286f97b671108c41b9dfe153af75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:40:32</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
@@ -1785,11 +2455,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>1a67286f97b671108c41b9dfe153af75</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:08:30</sys_updated_on>
+        <sys_updated_on>2023-12-12 03:57:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>short_description=Sign Instructor/Student Agreement^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}^state=1^assigned_to={{Created_1.current.instructor.instructor}}</value>
+        <value>assigned_to={{Created_1.current.instructor.instructor}}^state=1^short_description=Sign instructor/student agreement^parent={{51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -1831,10 +2501,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>6db120a797b671108c41b9dfe153af12</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>bec43715-368c-4262-9e2d-cbe0784e9628</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6db120a797b671108c41b9dfe153af12"/>
@@ -1871,14 +2541,102 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>edb120a797b671108c41b9dfe153af13</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 00:51:19</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:32:51</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>approval=requested^class_title={{Created_1.current.class_title}}^instructor={{Created_1.current.instructor.instructor}}^projected_start_date={{Created_1.current.start_date}}^projected_end_date={{Created_1.current.end_date}}^assignment_group={"display":"Superintendent","value":"99aa906f977671108c41b9dfe153af2c","sys_id":"99aa906f977671108c41b9dfe153af2c"}</value>
+        <value>approval=not requested^class_title={{Created_1.current.class_title}}^instructor={{Created_1.current.instructor.instructor}}^projected_start_date={{Created_1.current.start_date}}^projected_end_date={{Created_1.current.end_date}}^assignment_group={"display":"Superintendent","value":"99aa906f977671108c41b9dfe153af2c","sys_id":"99aa906f977671108c41b9dfe153af2c"}^u_parent_class_record={{Created_1.current}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6db120a797b671108c41b9dfe153af12"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6db120a797b671108c41b9dfe153af12"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
+        <order>11</order>
+        <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>8fdddd79970f31108c41b9dfe153afd4</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
+        <ui_id>ae2f3701-a984-4c89-9d7b-d551c0983a2a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8fdddd79970f31108c41b9dfe153afd4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fdddd79970f31108c41b9dfe153afd4</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>03dddd79970f31108c41b9dfe153afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:20</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
+        <variable display_value="Table">45ce8a4187120010663ca1bb36cb0bea</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fdddd79970f31108c41b9dfe153afd4</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>4fdddd79970f31108c41b9dfe153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:20</sys_updated_on>
+        <value>state=3</value>
+        <variable display_value="Conditions">49ce8a4187120010663ca1bb36cb0bef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8fdddd79970f31108c41b9dfe153afd4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8fdddd79970f31108c41b9dfe153afd4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>0bdddd79970f31108c41b9dfe153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>8fdddd79970f31108c41b9dfe153afd4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>47dddd79970f31108c41b9dfe153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value>{{23778784-a787-484b-982d-2084bbe02224.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>8fdddd79970f31108c41b9dfe153afd4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:44:20</sys_created_on>
+        <sys_id>cbdddd79970f31108c41b9dfe153afd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:44:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_89ce8a4187120010663ca1bb36cb0be3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8fdddd79970f31108c41b9dfe153afd4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8fdddd79970f31108c41b9dfe153afd4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1887,16 +2645,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>7</order>
+        <order>9</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>d667286f97b671108c41b9dfe153af6d</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>88</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>23778784-a787-484b-982d-2084bbe02224</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d667286f97b671108c41b9dfe153af6d"/>
@@ -1908,9 +2666,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>1267286f97b671108c41b9dfe153af6f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <value>0</value>
         <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
     </sys_variable_value>
@@ -1922,10 +2680,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>d267286f97b671108c41b9dfe153af6f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:00:07</sys_updated_on>
-        <value>x_1034401_traini_0_class_request_items</value>
+        <sys_updated_on>2023-12-12 03:47:59</sys_updated_on>
+        <value>x_1034401_traini_0_class_tasks</value>
         <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d667286f97b671108c41b9dfe153af6d"/>
@@ -1935,11 +2693,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:00:07</sys_created_on>
         <sys_id>9e67286f97b671108c41b9dfe153af6e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:08:30</sys_updated_on>
+        <sys_updated_on>2023-12-12 03:52:30</sys_updated_on>
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
-        <value>short_description=Verify Students^parent={{bec43715-368c-4262-9e2d-cbe0784e9628.record}}^state=1^assigned_to={{Created_1.current.instructor.instructor}}</value>
+        <value>assigned_to={{bec43715-368c-4262-9e2d-cbe0784e9628.record.instructor}}^state=1^short_description=Verify student roster^parent={{51c73788-e75a-49eb-9c8e-6d67ed7bc9b1.record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>task_table</field>
@@ -1965,7 +2723,20 @@
         <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=d667286f97b671108c41b9dfe153af6d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d667286f97b671108c41b9dfe153af6d^sys_idNOT INd7fcd139970f31108c41b9dfe153afd7"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>wait</input_name>
+        <instance>d667286f97b671108c41b9dfe153af6d</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"wait":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 04:40:32</sys_created_on>
+        <sys_id>d7fcd139970f31108c41b9dfe153afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 04:40:32</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d667286f97b671108c41b9dfe153af6d"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1975,16 +2746,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>2</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>e9b120a797b671108c41b9dfe153af1b</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>98</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>cc501c19-51d3-4c54-9f3d-ce3ead443c96</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e9b120a797b671108c41b9dfe153af1b"/>
@@ -2127,16 +2898,16 @@
         <comment/>
         <display_text/>
         <flow display_value="Class Administration">a9b1ec6797b671108c41b9dfe153afd2</flow>
-        <order>6</order>
+        <order>8</order>
         <parent_ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:07:15</sys_created_on>
         <sys_id>fe09e8ef97b671108c41b9dfe153af22</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>893cc4f5-efc2-466f-9686-6dcae45b80b6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fe09e8ef97b671108c41b9dfe153af22"/>
@@ -2185,9 +2956,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 01:07:16</sys_created_on>
         <sys_id>c309e8ef97b671108c41b9dfe153af24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:07:16</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:27:15</sys_updated_on>
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>assignment_group=^assigned_to={{Created_1.current.instructor.instructor}}</value>
     </sys_element_mapping>
@@ -2209,7 +2980,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>4</order>
+        <order>6</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2217,10 +2988,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:13</sys_created_on>
         <sys_id>65b120a797b671108c41b9dfe153af09</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:03</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:41</sys_updated_on>
         <ui_id>1b41eb93-3ddd-4dcf-b3d8-df7c86fd0817</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2267,7 +3038,24 @@
     </sys_element_mapping>
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=65b120a797b671108c41b9dfe153af09"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=65b120a797b671108c41b9dfe153af09"/>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN35b120a797b671108c41b9dfe153af42,39b120a797b671108c41b9dfe153af42,3bb4e0ab97b671108c41b9dfe153af71,b5b120a797b671108c41b9dfe153af42,b9b120a797b671108c41b9dfe153af42,e565e0eb97b671108c41b9dfe153afe4"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a9b1ec6797b671108c41b9dfe153afd2^sys_idNOT IN0b0ff431978b31108c41b9dfe153af02,35b120a797b671108c41b9dfe153af42,39b120a797b671108c41b9dfe153af42,3bb4e0ab97b671108c41b9dfe153af71,470ff431978b31108c41b9dfe153af02,b5b120a797b671108c41b9dfe153af42,b9b120a797b671108c41b9dfe153af42,cb0ff431978b31108c41b9dfe153af02,e565e0eb97b671108c41b9dfe153afe4"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.start_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:43</sys_created_on>
+        <sys_id>0b0ff431978b31108c41b9dfe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>c355670e-c27d-4a81-b94f-abc01c656055</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
         <extra_info/>
@@ -2323,6 +3111,23 @@
         <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
         <extra_info/>
         <order>0</order>
+        <prescription>{{Created_1.current.end_date}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:43</sys_created_on>
+        <sys_id>470ff431978b31108c41b9dfe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>b7c14fbf-d25b-4e23-9e72-c4d7d1cea8c8</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
+        <extra_info/>
+        <order>0</order>
         <prescription>{{Created_1.current}}</prescription>
         <source_ui_id/>
         <sys_created_by>admin</sys_created_by>
@@ -2352,6 +3157,23 @@
         <transform_compositions>[]</transform_compositions>
         <transform_definition_id/>
         <ui_id>fd10ff23-0ee6-4f20-bd05-3584e89f1254</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{Created_1.current.class_title.title}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 02:29:43</sys_created_on>
+        <sys_id>cb0ff431978b31108c41b9dfe153af02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 02:29:43</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>90ff4b65-158d-4eaa-9db5-8edd0108894c</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_pill_compound action="INSERT_OR_UPDATE">
         <attached_to>a9b1ec6797b671108c41b9dfe153afd2</attached_to>
@@ -2431,17 +3253,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f1b120a797b671108c41b9dfe153af89","name":"plan","plan_signature":null}}</plan>
         <plan_id>9a4a582f977671108c41b9dfe153af6c</plan_id>
-        <snapshot>a7d3f0af97f671108c41b9dfe153af4f</snapshot>
+        <snapshot>b9bed5f9970f31108c41b9dfe153afbd</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-12-05 00:35:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f1b120a797b671108c41b9dfe153af89</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-05 01:54:04</sys_updated_on>
+        <sys_updated_on>2023-12-12 04:46:43</sys_updated_on>
         <trigger display_value="">0d3f4347977231108c41b9dfe153af3b</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9a4a582f977671108c41b9dfe153af6c"/>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="a44cd0ef977671108c41b9dfe153afcc" extends="task" label="Class Request Items" max_length="40" name="x_1034401_traini_0_class_request_items" type="collection"/>
-</database>

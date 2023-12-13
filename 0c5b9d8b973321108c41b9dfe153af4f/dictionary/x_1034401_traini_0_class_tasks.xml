@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e3919cf197c731108c41b9dfe153afa9" extends="task" label="Class Tasks" max_length="40" name="x_1034401_traini_0_class_tasks" type="collection"/>
+</database>

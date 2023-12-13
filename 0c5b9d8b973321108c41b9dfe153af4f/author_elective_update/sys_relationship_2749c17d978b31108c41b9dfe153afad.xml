@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>task</basic_apply_to>
+        <basic_query_from>x_1034401_traini_0_class_requests</basic_query_from>
+        <insert_callback/>
+        <name>Class Requests</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('parent', parent.sys_id);]]></query_with>
+        <reference_field>parent</reference_field>
+        <related_list/>
+        <simple_reference>true</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 03:15:37</sys_created_on>
+        <sys_id>2749c17d978b31108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Requests</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_relationship_2749c17d978b31108c41b9dfe153afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:15:37</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=2749c17d978b31108c41b9dfe153afad"/>
+    <sys_ui_related_list_relationship_entry action="DELETE">
+        <filter/>
+        <list_id display_value="Follow On Task - Default view" name="cert_follow_on_task" related_list="NULL" sys_domain="global" view="Default view">af2d627947f3300042bd757f2ede2700</list_id>
+        <order_by/>
+        <position>1</position>
+        <related_list>REL:2749c17d978b31108c41b9dfe153afad</related_list>
+        <sys_class_name>sys_ui_related_list_relationship_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 03:16:30</sys_created_on>
+        <sys_id>90c9097d978b31108c41b9dfe153af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_relationship display_value="Class Requests">2749c17d978b31108c41b9dfe153afad</sys_relationship>
+        <sys_ui_related_list display_value="Follow On Task - Default view" name="cert_follow_on_task" related_list="NULL" sys_domain="global" view="Default view">af2d627947f3300042bd757f2ede2700</sys_ui_related_list>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:16:30</sys_updated_on>
+    </sys_ui_related_list_relationship_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_relationship_2749c17d978b31108c41b9dfe153afad</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;task&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_1034401_traini_0_class_requests&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Class Requests&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[current.addQuery('parent', parent.sys_id);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;parent&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;true&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-12 03:15:37&lt;/sys_created_on&gt;&lt;sys_id&gt;2749c17d978b31108c41b9dfe153afad&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Class Requests&lt;/sys_name&gt;&lt;sys_package display_value="TrainingView" source="x_1034401_traini_0"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="TrainingView"&gt;0c5b9d8b973321108c41b9dfe153af4f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_2749c17d978b31108c41b9dfe153afad&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-12 03:15:37&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2749c17d978b31108c41b9dfe153afad"/&gt;&lt;sys_ui_related_list_relationship_entry action="INSERT_OR_UPDATE"&gt;&lt;filter/&gt;&lt;list_id display_value="Follow On Task - Default view" name="cert_follow_on_task" related_list="NULL" sys_domain="global" view="Default view"&gt;af2d627947f3300042bd757f2ede2700&lt;/list_id&gt;&lt;order_by/&gt;&lt;position&gt;1&lt;/position&gt;&lt;related_list&gt;REL:2749c17d978b31108c41b9dfe153afad&lt;/related_list&gt;&lt;sys_class_name&gt;sys_ui_related_list_relationship_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-12 03:16:30&lt;/sys_created_on&gt;&lt;sys_id&gt;90c9097d978b31108c41b9dfe153af65&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_relationship display_value="Class Requests"&gt;2749c17d978b31108c41b9dfe153afad&lt;/sys_relationship&gt;&lt;sys_ui_related_list display_value="Follow On Task - Default view" name="cert_follow_on_task" related_list="NULL" sys_domain="global" view="Default view"&gt;af2d627947f3300042bd757f2ede2700&lt;/sys_ui_related_list&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-12 03:16:30&lt;/sys_updated_on&gt;&lt;/sys_ui_related_list_relationship_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1957697783</payload_hash>
+        <record_name>Class Requests</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 03:16:30</sys_created_on>
+        <sys_id>14c9097d978b31108c41b9dfe153af68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5c06acb40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:16:30</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>58c9097d668b31101971450b1f866867</update_guid>
+        <update_guid_history>58c9097d668b31101971450b1f866867:-1957697783,af89817d8e8b31108a4d75f928377e3d:1610209574</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-12 03:16:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>401e7795bdc34706a442ffb43ab959c1</sys_id>
+        <sys_metadata>2749c17d978b31108c41b9dfe153afad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Class Requests</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="Task">dd3a4739e821211076da10591ad28741</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_relationship_2749c17d978b31108c41b9dfe153afad</sys_update_name>
+        <sys_update_version display_value="sys_relationship_2749c17d978b31108c41b9dfe153afad">14c9097d978b31108c41b9dfe153af68</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-12 03:16:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

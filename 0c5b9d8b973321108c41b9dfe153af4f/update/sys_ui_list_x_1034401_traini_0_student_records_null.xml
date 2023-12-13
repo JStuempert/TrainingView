@@ -3,92 +3,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>full_name</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>96dd12039786b1108c41b9dfe153af58</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>b3e7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>class_title</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>9add12039786b1108c41b9dfe153af58</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>37e7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>instructor.instructor.instructor</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <element>class_title.instructor.instructor</element>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>9edd12039786b1108c41b9dfe153af58</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>b7e7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>instructor.start_date</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <element>status</element>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>92dd12039786b1108c41b9dfe153af59</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>3be7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>instructor.end_date</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <element>class_title.start_date</element>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>96dd12039786b1108c41b9dfe153af59</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>bbe7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>status</element>
-            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9add12039786b1108c41b9dfe153af57</list_id>
+            <element>class_title.end_date</element>
+            <list_id display_value="x_1034401_traini_0_student_records" element="NULL" name="x_1034401_traini_0_student_records" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b7e7c5f9978b31108c41b9dfe153afcc</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
-            <sys_id>9add12039786b1108c41b9dfe153af59</sys_id>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
+            <sys_id>3fe7c5f9978b31108c41b9dfe153afcd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +102,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-10-27 13:33:31</sys_created_on>
+            <sys_created_on>2023-12-12 03:08:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9add12039786b1108c41b9dfe153af57</sys_id>
+            <sys_id>b7e7c5f9978b31108c41b9dfe153afcc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1034401_traini_0_student_records</sys_name>
             <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -113,7 +113,7 @@
             <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
             <sys_update_name>sys_ui_list_x_1034401_traini_0_student_records_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-10-27 13:33:31</sys_updated_on>
+            <sys_updated_on>2023-12-12 03:08:32</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

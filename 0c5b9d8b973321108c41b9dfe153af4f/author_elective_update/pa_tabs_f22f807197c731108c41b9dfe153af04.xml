@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="DELETE">
+        <canvas_page/>
+        <name>TrainingView Dashboa - New Tab 2</name>
+        <page/>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 23:00:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f22f807197c731108c41b9dfe153af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainingView Dashboa - New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>pa_tabs_f22f807197c731108c41b9dfe153af04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 23:00:32</sys_updated_on>
+    </pa_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>pa_tabs_f22f807197c731108c41b9dfe153af04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs"><pa_tabs action="INSERT_OR_UPDATE"><canvas_page/><name>TrainingView Dashboa - New Tab 2</name><page/><sys_class_name>pa_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-11 23:00:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f22f807197c731108c41b9dfe153af04</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TrainingView Dashboa - New Tab 2</sys_name><sys_overrides/><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>pa_tabs_f22f807197c731108c41b9dfe153af04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-11 23:00:32</sys_updated_on></pa_tabs></record_update>]]></payload>
+        <payload_hash>-720300325</payload_hash>
+        <record_name>TrainingView Dashboa - New Tab 2</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 23:00:36</sys_created_on>
+        <sys_id>3b2fc07197c731108c41b9dfe153af54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c5b1c64450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 23:00:36</sys_updated_on>
+        <type>Tab</type>
+        <update_guid>362f8071dec7311079ce14dcc782e605</update_guid>
+        <update_guid_history>362f8071dec7311079ce14dcc782e605:1614141284,362f8071dec7311079ce14dcc782e605:1614141284,362f8071dec7311079ce14dcc782e605:1614141284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="TrainingView Dashboa - New Tab 2">ff2fc07197c731108c41b9dfe153af5a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 23:00:36</sys_created_on>
+        <sys_db_object display_value="" name="pa_tabs">pa_tabs</sys_db_object>
+        <sys_id>a9a2c6cf83f0416ab924e835698e8ec1</sys_id>
+        <sys_metadata>f22f807197c731108c41b9dfe153af04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainingView Dashboa - New Tab 2</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>pa_tabs_f22f807197c731108c41b9dfe153af04</sys_update_name>
+        <sys_update_version display_value="pa_tabs_f22f807197c731108c41b9dfe153af04">3b2fc07197c731108c41b9dfe153af54</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 23:00:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1034401_traini_0_class_request_items" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_id>b5d7a86f97b671108c41b9dfe153afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_id>fdd7a86f97b671108c41b9dfe153afdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_id>f1d7a86f97b671108c41b9dfe153afdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_id>f5d7a86f97b671108c41b9dfe153afdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_class_name</element>
+            <list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_id>f9d7a86f97b671108c41b9dfe153afdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1034401_traini_0_class_request_items</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dd7a86f97b671108c41b9dfe153afda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1034401_traini_0_class_request_items</sys_name>
+            <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+            <sys_update_name>sys_ui_list_x_1034401_traini_0_class_request_items_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ui_list_x_1034401_traini_0_class_request_items_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1034401_traini_0_class_request_items" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_id>b5d7a86f97b671108c41b9dfe153afdc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>assigned_to</element><list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_id>fdd7a86f97b671108c41b9dfe153afdc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>short_description</element><list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_id>f1d7a86f97b671108c41b9dfe153afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>state</element><list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_id>f5d7a86f97b671108c41b9dfe153afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>sys_class_name</element><list_id display_value="x_1034401_traini_0_class_request_items" element="NULL" name="x_1034401_traini_0_class_request_items" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">3dd7a86f97b671108c41b9dfe153afda</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_id>f9d7a86f97b671108c41b9dfe153afdd</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1034401_traini_0_class_request_items</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-05 01:02:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3dd7a86f97b671108c41b9dfe153afda</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1034401_traini_0_class_request_items</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ui_list_x_1034401_traini_0_class_request_items_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-05 01:02:00</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>22108879</payload_hash>
+        <record_name>Class Request Items</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-05 01:02:00</sys_created_on>
+        <sys_id>71d7e0af97b671108c41b9dfe153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c377f038f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-05 01:02:00</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>75d7e0af68b671107a3f9cf0180c0509</update_guid>
+        <update_guid_history>75d7e0af68b671107a3f9cf0180c0509:22108879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-11 23:04:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>07d467790f9e47938053e4ffd032c9f1</sys_id>
+        <sys_metadata>3dd7a86f97b671108c41b9dfe153afda</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1034401_traini_0_class_request_items</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="">a44cd0ef977671108c41b9dfe153afcc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1034401_traini_0_class_request_items_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1034401_traini_0_class_request_items_null">71d7e0af97b671108c41b9dfe153af0a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-11 23:04:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
