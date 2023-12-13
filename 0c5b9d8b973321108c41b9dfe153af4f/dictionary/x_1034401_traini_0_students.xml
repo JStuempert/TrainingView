@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="704cddcb973321108c41b9dfe153af06" label="Students" max_length="40" name="x_1034401_traini_0_students" text_index="true" type="collection">
-        <element label="AFSC" mandatory="true" max_length="10" name="afsc" type="string"/>
-        <element label="First Name" mandatory="true" max_length="15" name="first_name" type="string"/>
-        <element display="true" label="Full Name" mandatory="true" max_length="50" name="full_name" read_only="true" type="string"/>
-        <element label="Last Name" mandatory="true" max_length="20" name="last_name" type="string"/>
-        <element label="Unit" mandatory="true" max_length="10" name="unit" type="string"/>
-    </element>
-</database>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Class">27374bcb973231108c41b9dfe153af27</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 23:22:45</sys_created_on>
+        <sys_id>12878fcb973231108c41b9dfe153af6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Class</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_12878fcb973231108c41b9dfe153af6d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:22:45</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sc_cat_item_catalog_12878fcb973231108c41b9dfe153af6d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Class">27374bcb973231108c41b9dfe153af27</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-03 23:22:45</sys_created_on><sys_id>12878fcb973231108c41b9dfe153af6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Class</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sc_cat_item_catalog_12878fcb973231108c41b9dfe153af6d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-03 23:22:45</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-2096004512</payload_hash>
+        <record_name>Service Catalog.Class</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-03 23:22:45</sys_created_on>
+        <sys_id>da878fcb973231108c41b9dfe153af70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c31fdcba90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-03 23:22:45</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>de878fcbf53231109423d55dba33b56f</update_guid>
+        <update_guid_history>de878fcbf53231109423d55dba33b56f:-2096004512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Class">133ae99a970731108c41b9dfe153affa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-13 18:55:23</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>d4e6870d0ee94930b2c362ce90343a40</sys_id>
+        <sys_metadata>12878fcb973231108c41b9dfe153af6d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Class</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent display_value="">27374bcb973231108c41b9dfe153af27</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_12878fcb973231108c41b9dfe153af6d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_12878fcb973231108c41b9dfe153af6d">da878fcb973231108c41b9dfe153af70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-13 18:55:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

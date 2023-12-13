@@ -17,7 +17,7 @@
 
    //Type appropriate comment here, and begin script below
 	g_form.hideAllFieldMsgs();
-	var ga = new GlideAjax('getProjectedEndDate');
+	var ga = new GlideAjax('GetProjectedEndDate');
 	ga.addParam('sysparm_name', 'getProjectedEndDate');
 	ga.addParam('sysparm_startDateFormat', g_form.getValue('start_date'));
 	ga.addParam('sysparm_daysRequired', g_form.getValue('class_days_required'));
@@ -44,7 +44,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9dfe5e76974671108c41b9dfe153afea</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>End date suggestion</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -52,7 +52,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_client_9dfe5e76974671108c41b9dfe153afea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-29 18:20:26</sys_updated_on>
+        <sys_updated_on>2023-12-13 18:52:50</sys_updated_on>
         <table>x_1034401_traini_0_class_records</table>
         <type>onChange</type>
         <ui_type>10</ui_type>

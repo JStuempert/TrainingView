@@ -2,13 +2,13 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_1034401_traini_0.lookUpInstructor</api_name>
+        <api_name>x_1034401_traini_0.LookUpInstructor</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>lookUpInstructor</name>
-        <script><![CDATA[var lookUpInstructor = Class.create();
-lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>LookUpInstructor</name>
+        <script><![CDATA[var LookUpInstructor = Class.create();
+LookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
 	lookUpInstructor: function(){
 		
@@ -27,19 +27,19 @@ lookUpInstructor.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 		return JSON.stringify(instructor);
 	},
 
-    type: 'lookUpInstructor'
+    type: 'LookUpInstructor'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-24 18:29:37</sys_created_on>
         <sys_id>1564085a978631108c41b9dfe153af96</sys_id>
-        <sys_mod_count>37</sys_mod_count>
-        <sys_name>lookUpInstructor</sys_name>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_name>LookUpInstructor</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_include_1564085a978631108c41b9dfe153af96</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-24 21:22:08</sys_updated_on>
+        <sys_updated_on>2023-12-13 18:53:04</sys_updated_on>
     </sys_script_include>
 </record_update>

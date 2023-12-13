@@ -2,13 +2,13 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_1034401_traini_0.checkScheduleOverlap</api_name>
+        <api_name>x_1034401_traini_0.CheckScheduleOverlap</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>checkScheduleOverlap</name>
-        <script><![CDATA[var checkScheduleOverlap = Class.create();
-checkScheduleOverlap.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>CheckScheduleOverlap</name>
+        <script><![CDATA[var CheckScheduleOverlap = Class.create();
+CheckScheduleOverlap.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 	
 	checkScheduleOverlap: function(){
 		
@@ -60,19 +60,19 @@ checkScheduleOverlap.prototype = Object.extendsObject(global.AbstractAjaxProcess
 		
 	},
 
-    type: 'checkScheduleOverlap'
+    type: 'CheckScheduleOverlap'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-26 22:28:01</sys_created_on>
         <sys_id>c1974bb2970a71108c41b9dfe153af1c</sys_id>
-        <sys_mod_count>105</sys_mod_count>
-        <sys_name>checkScheduleOverlap</sys_name>
+        <sys_mod_count>106</sys_mod_count>
+        <sys_name>CheckScheduleOverlap</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_include_c1974bb2970a71108c41b9dfe153af1c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-07 22:55:08</sys_updated_on>
+        <sys_updated_on>2023-12-13 18:48:29</sys_updated_on>
     </sys_script_include>
 </record_update>

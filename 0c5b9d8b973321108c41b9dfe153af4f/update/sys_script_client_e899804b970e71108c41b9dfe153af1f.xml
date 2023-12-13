@@ -19,7 +19,7 @@
 	g_form.hideFieldMsg('instructor');
    if (g_form.getValue('start_date') != '' && g_form.getValue('instructor') != '')
 		{
-			var ga = new GlideAjax('checkScheduleOverlap');
+			var ga = new GlideAjax('CheckScheduleOverlap');
 			ga.addParam('sysparm_name', 'checkScheduleOverlap');
 			ga.addParam('sysparm_instructor', g_form.getValue('instructor'));
 			ga.addParam('sysparm_startDate', g_form.getValue('start_date'));
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e899804b970e71108c41b9dfe153af1f</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Check schedule overlap on end</sys_name>
         <sys_overrides/>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_script_client_e899804b970e71108c41b9dfe153af1f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-29 18:23:09</sys_updated_on>
+        <sys_updated_on>2023-12-13 18:48:57</sys_updated_on>
         <table>x_1034401_traini_0_class_records</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
