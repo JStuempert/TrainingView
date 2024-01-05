@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="DELETE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="Instructors Table">fc04b1dd970031108c41b9dfe153af7e</datasource>
+        <field>full_name</field>
+        <source>x_1034401_traini_0_instructors</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:48</sys_created_on>
+        <sys_id>f404b1dd970031108c41b9dfe153afad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1034401_traini_0_instructors.full_name</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_f404b1dd970031108c41b9dfe153afad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:48</sys_updated_on>
+        <value>title</value>
+    </ais_datasource_field_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>ais_datasource_field_attribute_f404b1dd970031108c41b9dfe153afad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute"><ais_datasource_field_attribute action="INSERT_OR_UPDATE"><attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute><datasource display_value="Instructors Table">fc04b1dd970031108c41b9dfe153af7e</datasource><field>full_name</field><source>x_1034401_traini_0_instructors</source><sys_class_name>ais_datasource_field_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 13:55:48</sys_created_on><sys_id>f404b1dd970031108c41b9dfe153afad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1034401_traini_0_instructors.full_name</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>ais_datasource_field_attribute_f404b1dd970031108c41b9dfe153afad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 13:55:48</sys_updated_on><value>title</value></ais_datasource_field_attribute></record_update>]]></payload>
+        <payload_hash>-2096667408</payload_hash>
+        <record_name>x_1034401_traini_0_instructors.full_name</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:48</sys_created_on>
+        <sys_id>f004b1dd970031108c41b9dfe153afaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18954afb5990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:48</sys_updated_on>
+        <type>AI Search Indexed Source Field Attribute</type>
+        <update_guid>3804b1dde60031108364ec43445b24ae</update_guid>
+        <update_guid_history>3804b1dde60031108364ec43445b24ae:-2096667408</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1034401_traini_0_instructors.full_name">ebdd9ca6970371108c41b9dfe153af08</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 08:00:12</sys_created_on>
+        <sys_db_object display_value="" name="ais_datasource_field_attribute">ais_datasource_field_attribute</sys_db_object>
+        <sys_id>121a5f680a684e118c6d8d8e78ffbd49</sys_id>
+        <sys_metadata>f404b1dd970031108c41b9dfe153afad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1034401_traini_0_instructors.full_name</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>ais_datasource_field_attribute_f404b1dd970031108c41b9dfe153afad</sys_update_name>
+        <sys_update_version display_value="ais_datasource_field_attribute_f404b1dd970031108c41b9dfe153afad">f004b1dd970031108c41b9dfe153afaf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 08:00:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

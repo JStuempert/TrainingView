@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
+    <sys_ui_hp_publisher action="DELETE">
+        <allow_database_view_filter>false</allow_database_view_filter>
+        <allow_extended_table>false</allow_extended_table>
+        <boolean_field/>
+        <boolean_table/>
+        <date_filter/>
+        <default_boolean_field/>
+        <default_choice/>
+        <default_date_filter/>
+        <default_reference_field_value/>
+        <description/>
+        <exclusion_choice_list/>
+        <look_up_name>Instructor</look_up_name>
+        <name>Instructor</name>
+        <reference_conditions table="sys_user">^RLQUERYx_1034401_traini_0_instructor_qualifications.instructor,&gt;=1^ENDRLQUERY</reference_conditions>
+        <reference_table>sys_user</reference_table>
+        <remove_all_option>false</remove_all_option>
+        <source_field/>
+        <source_table/>
+        <sys_class_name>sys_ui_hp_publisher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 22:34:01</sys_created_on>
+        <sys_id>3abe16e0979fb1108c41b9dfe153afd2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ui_hp_publisher_3abe16e0979fb1108c41b9dfe153afd2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 22:34:15</sys_updated_on>
+        <type>2</type>
+        <ui_control_type>4</ui_control_type>
+        <use_starts_with_on_search_keyword>false</use_starts_with_on_search_keyword>
+    </sys_ui_hp_publisher>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_ui_hp_publisher_3abe16e0979fb1108c41b9dfe153afd2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher"><sys_ui_hp_publisher action="INSERT_OR_UPDATE"><allow_database_view_filter>false</allow_database_view_filter><allow_extended_table>false</allow_extended_table><boolean_field/><boolean_table/><date_filter/><default_boolean_field/><default_choice/><default_date_filter/><default_reference_field_value/><description/><exclusion_choice_list/><look_up_name>Instructor</look_up_name><name>Instructor</name><reference_conditions table="sys_user">^RLQUERYx_1034401_traini_0_instructor_qualifications.instructor,&gt;=1^ENDRLQUERY</reference_conditions><reference_table>sys_user</reference_table><remove_all_option>false</remove_all_option><source_field/><source_table/><sys_class_name>sys_ui_hp_publisher</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-20 22:34:01</sys_created_on><sys_id>3abe16e0979fb1108c41b9dfe153afd2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Instructor</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_ui_hp_publisher_3abe16e0979fb1108c41b9dfe153afd2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-20 22:34:15</sys_updated_on><type>2</type><ui_control_type>4</ui_control_type><use_starts_with_on_search_keyword>false</use_starts_with_on_search_keyword></sys_ui_hp_publisher></record_update>]]></payload>
+        <payload_hash>1913685239</payload_hash>
+        <record_name>Instructor</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 22:34:15</sys_created_on>
+        <sys_id>217f1224979fb1108c41b9dfe153af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c895d81570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 22:34:15</sys_updated_on>
+        <type>Interactive Filter</type>
+        <update_guid>657f1224d69fb1106596d832ab101487</update_guid>
+        <update_guid_history>657f1224d69fb1106596d832ab101487:1913685239,0e6f56e07d9fb110db9165cde46f440e:-1793578775</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 22:34:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_hp_publisher">sys_ui_hp_publisher</sys_db_object>
+        <sys_id>0adf6de5083e4fb0a674dd5fc5244590</sys_id>
+        <sys_metadata>3abe16e0979fb1108c41b9dfe153afd2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Instructor</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_ui_hp_publisher_3abe16e0979fb1108c41b9dfe153afd2</sys_update_name>
+        <sys_update_version display_value="sys_ui_hp_publisher_3abe16e0979fb1108c41b9dfe153afd2">217f1224979fb1108c41b9dfe153af88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 22:34:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

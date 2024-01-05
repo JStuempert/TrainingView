@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>coupon_code</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Coupon Code</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 03:22:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cf7a83a9703b1108c41b9dfe153af5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Coupon Code</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_9cf7a83a9703b1108c41b9dfe153af5d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 03:22:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_variable_value action="DELETE" query="document_key=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_step_instance action="DELETE" query="action=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_action_input action="DELETE" query="model=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_action_output action="DELETE" query="model=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=9cf7a83a9703b1108c41b9dfe153af5d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>sys_hub_action_type_definition_9cf7a83a9703b1108c41b9dfe153af5d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition"><sys_hub_action_type_definition action="INSERT_OR_UPDATE"><access>public</access><acls/><action_status/><action_template/><active>true</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><ih_action>false</ih_action><internal_name>coupon_code</internal_name><label_cache/><latest_snapshot/><master_snapshot/><name>Coupon Code</name><natlang/><outputs/><pre_compiled>false</pre_compiled><state>draft</state><sys_class_name>sys_hub_action_type_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-15 03:22:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9cf7a83a9703b1108c41b9dfe153af5d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Coupon Code</sys_name><sys_overrides/><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>sys_hub_action_type_definition_9cf7a83a9703b1108c41b9dfe153af5d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-15 03:22:42</sys_updated_on><system_level>false</system_level><type/></sys_hub_action_type_definition><sys_translated_text action="delete_multiple" query="documentkey=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_variable_value action="delete_multiple" query="document_key=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_step_instance action="delete_multiple" query="action=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_action_input action="delete_multiple" query="model=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_action_output action="delete_multiple" query="model=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=9cf7a83a9703b1108c41b9dfe153af5d"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9cf7a83a9703b1108c41b9dfe153af5d"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9cf7a83a9703b1108c41b9dfe153af5d"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9cf7a83a9703b1108c41b9dfe153af5d"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_9cf7a83a9703b1108c41b9dfe153af5d"/><sys_hub_action_plan action="delete_multiple" query="action_id=9cf7a83a9703b1108c41b9dfe153af5d"/></record_update>]]></payload>
+        <payload_hash>2025762984</payload_hash>
+        <record_name>Coupon Code</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 03:22:42</sys_created_on>
+        <sys_id>a8f7a83a9703b1108c41b9dfe153af64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c6b7f6d9f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 03:22:42</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>acf7a83ac103b11081c87f22d9ecec63</update_guid>
+        <update_guid_history>acf7a83ac103b11081c87f22d9ecec63:2025762984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 03:26:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>611ecbef6c5049d5821b0eeea5f8b0c9</sys_id>
+        <sys_metadata>9cf7a83a9703b1108c41b9dfe153af5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Coupon Code</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_9cf7a83a9703b1108c41b9dfe153af5d</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_9cf7a83a9703b1108c41b9dfe153af5d">a8f7a83a9703b1108c41b9dfe153af64</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 03:26:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

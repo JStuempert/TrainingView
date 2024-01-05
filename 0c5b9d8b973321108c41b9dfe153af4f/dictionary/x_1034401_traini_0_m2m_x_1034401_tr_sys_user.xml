@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8e096ea8979fb1108c41b9dfe153afe5" label="x_1034401_traini_0_m2m_Instructor Qualifications_Users" max_length="40" name="x_1034401_traini_0_m2m_x_1034401_tr_sys_user" type="collection">
+        <element attributes="encode_utf8=false" label="Users" max_length="32" name="sys_user" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Instructor Qualifications" max_length="32" name="x_1034401_traini_0_instructor_qualificat" reference="x_1034401_traini_0_instructor_qualifications" type="reference"/>
+        <index name="index">
+            <element name="sys_user"/>
+        </index>
+    </element>
+</database>

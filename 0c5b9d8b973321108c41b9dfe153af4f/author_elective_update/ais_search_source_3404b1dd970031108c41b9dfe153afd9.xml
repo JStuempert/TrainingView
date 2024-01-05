@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="DELETE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_1034401_traini_0_students</datasource>
+        <name>Students</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:49</sys_created_on>
+        <sys_id>3404b1dd970031108c41b9dfe153afd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>ais_search_source_3404b1dd970031108c41b9dfe153afd9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:49</sys_updated_on>
+    </ais_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</application>
+        <file_path/>
+        <instance_id>3e8f7752db3fdf4089535d00cf961998</instance_id>
+        <instance_name>dev69981</instance_name>
+        <name>ais_search_source_3404b1dd970031108c41b9dfe153afd9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source"><ais_search_source action="INSERT_OR_UPDATE"><active>true</active><condition/><datasource display_value="">x_1034401_traini_0_students</datasource><name>Students</name><sys_class_name>ais_search_source</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-14 13:55:49</sys_created_on><sys_id>3404b1dd970031108c41b9dfe153afd9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Students</sys_name><sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package><sys_policy/><sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope><sys_update_name>ais_search_source_3404b1dd970031108c41b9dfe153afd9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-14 13:55:49</sys_updated_on></ais_search_source></record_update>]]></payload>
+        <payload_hash>351825649</payload_hash>
+        <record_name>Students</record_name>
+        <reverted_from/>
+        <source>1226f970970031108c41b9dfe153afe1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-14 13:55:49</sys_created_on>
+        <sys_id>fc04b1dd970031108c41b9dfe153afda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18954afb6be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 13:55:49</sys_updated_on>
+        <type>AI Search Search Source</type>
+        <update_guid>3404b1dd5d00311015cb1f856d69b7da</update_guid>
+        <update_guid_history>3404b1dd5d00311015cb1f856d69b7da:351825649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Students">a2dd5ca6970371108c41b9dfe153af1a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 08:00:07</sys_created_on>
+        <sys_db_object display_value="" name="ais_search_source">ais_search_source</sys_db_object>
+        <sys_id>4465b588fe2047de9aec6c9f23674299</sys_id>
+        <sys_metadata>3404b1dd970031108c41b9dfe153afd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_scope_delete display_value="">5901bfb0f54848a3a5a6b9fe125182e1</sys_scope_delete>
+        <sys_update_name>ais_search_source_3404b1dd970031108c41b9dfe153afd9</sys_update_name>
+        <sys_update_version display_value="ais_search_source_3404b1dd970031108c41b9dfe153afd9">fc04b1dd970031108c41b9dfe153afda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 08:00:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

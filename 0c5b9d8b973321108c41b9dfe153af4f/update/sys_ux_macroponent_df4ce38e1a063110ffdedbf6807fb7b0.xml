@@ -4,60 +4,82 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "dashboard",
-  "elementLabel" : "Dashboard",
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
   "propertyValues" : {
-    "userInfo" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "user" ],
-        "category" : "session"
-      }
-    },
-    "hideHeader" : {
+    "ariaRegionHeadingLevel" : {
       "type" : "JSON_LITERAL",
-      "value" : false
+      "value" : "1"
     },
-    "hideShareButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "editMode" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "dashboardSysId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    },
-    "hideCreateNewButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "hideEditButton" : {
-      "type" : "JSON_LITERAL",
-      "value" : false
-    },
-    "defaultDashboard" : {
-      "type" : "JSON_LITERAL",
-      "value" : "a34ce38e33063110dccd8dc43898f7b9"
-    },
-    "defaultDrilldowns" : {
+    "hideEmptyStateUi" : {
       "type" : "JSON_LITERAL",
       "value" : true
     },
-    "hideDashboardPicker" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
       "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
     }
   },
   "eventMappings" : [ ],
   "slot" : null,
   "definition" : {
-    "id" : "f552e6a932780394b6f06c14071aa115",
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
     "type" : "MACROPONENT"
   },
-  "overrides" : null,
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "viewport_czt",
+      "elementLabel" : "Viewport 1",
+      "propertyValues" : {
+        "dynamicTabData" : ""
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "MACROPONENT_VIEWPORT_HEADLESS",
+        "type" : "MACROPONENT_VIEWPORT_HEADLESS"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "extensionPoints" : [ ],
+      "isNonDestructive" : false,
+      "items" : [ ],
+      "styles" : null
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"viewport_czt","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
   "isHidden" : {
     "type" : "JSON_LITERAL",
     "value" : null
@@ -78,17 +100,41 @@
         <handled_events/>
         <interactions/>
         <interfaces/>
-        <internal_event_mappings>{ }</internal_event_mappings>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_uxf.MACROPONENT_VIEWPORT_LOAD_REQUESTED",
+      "payload" : {
+        "type" : "CLIENT_TRANSFORM_SCRIPT",
+        "script" : {
+          "apiVersion" : "1.0.0",
+          "controllerElementId" : null,
+          "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\tviewportElementId: \"viewport_czt\",\n\t\troute: \"TrainingView Header\",\n\t\tfields: null,\n\t\tparams: null\n\t};\n}",
+          "scriptSysId" : null,
+          "target" : null
+        }
+      },
+      "sysId" : "f49aa75023071010b1e3c50947bf65de"
+    },
+    "operation" : null,
+    "targetId" : "clqxaaeeafoaaeetnddffhhyhlhcjsrz",
+    "type" : "EVENT"
+  } ]
+}</internal_event_mappings>
         <layout>{
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"dashboard","styles":{}}],
+    "items" : [{"element_id":"container_1","styles":{"width":"100%"}}],
     "root" : null,
     "rules" : null,
-    "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%"},
+    "styles" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"var(--now-static-space--lg)","height":"100%","display":"flex"},
     "templateId" : "28bde4cd53431010e6bcddeeff7b12cc",
-    "type" : "grid"
+    "type" : "flex"
   },
   "version" : "3.0.0"
 }</layout>
@@ -130,14 +176,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-24 16:42:25</sys_created_on>
         <sys_id>df4ce38e1a063110ffdedbf6807fb7b0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
         <sys_policy/>
         <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
         <sys_update_name>sys_ux_macroponent_df4ce38e1a063110ffdedbf6807fb7b0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-02 13:32:15</sys_updated_on>
+        <sys_updated_on>2024-01-03 00:11:34</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=df4ce38e1a063110ffdedbf6807fb7b0"/>
 </record_update>

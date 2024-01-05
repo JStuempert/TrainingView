@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="TrainingView Config">274ce38e6806311060a9af68407680c1</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <name>TrainingView Header</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Home">df4ce38e1a063110ffdedbf6807fb7b0</parent_macroponent>
+        <parent_macroponent_composition_element_id>viewport_bka</parent_macroponent_composition_element_id>
+        <route_type>trainingview-header</route_type>
+        <screen_type display_value="TrainingView Header">6dec5df0976731108c41b9dfe153af18</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-02 22:37:37</sys_created_on>
+        <sys_id>75ec9174976731108c41b9dfe153af2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TrainingView Header</sys_name>
+        <sys_package display_value="TrainingView" source="x_1034401_traini_0">0c5b9d8b973321108c41b9dfe153af4f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TrainingView">0c5b9d8b973321108c41b9dfe153af4f</sys_scope>
+        <sys_update_name>sys_ux_app_route_75ec9174976731108c41b9dfe153af2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-02 22:37:37</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=75ec9174976731108c41b9dfe153af2b"/>
+</record_update>
